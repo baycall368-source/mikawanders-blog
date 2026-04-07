@@ -1,0 +1,529 @@
+{
+  "keyword": "best esim for hong kong",
+  "query_id": "1a716dcfccd0969e",
+  "basic_terms": [
+    "esim for hong kong",
+    "esims",
+    "hong kong esim",
+    "data plan",
+    "prepay",
+    "phone number",
+    "physical sim card",
+    "data roaming",
+    "app",
+    "qr code",
+    "stay connected",
+    "activate",
+    "5g",
+    "installing",
+    "physical sim",
+    "sms",
+    "destination",
+    "mobile data",
+    "4g",
+    "7 days",
+    "operator",
+    "wifi",
+    "traveler",
+    "activation",
+    "manually",
+    "connectivity",
+    "hkt",
+    "verification"
+  ],
+  "basic_terms_with_ranges": [
+    {
+      "term": "esim for hong kong",
+      "range": "1-4x"
+    },
+    {
+      "term": "esims",
+      "range": "1-16x"
+    },
+    {
+      "term": "hong kong esim",
+      "range": "1-5x"
+    },
+    {
+      "term": "data plan",
+      "range": "1-9x"
+    },
+    {
+      "term": "prepay",
+      "range": "1-6x"
+    },
+    {
+      "term": "phone number",
+      "range": "1-5x"
+    },
+    {
+      "term": "physical sim card",
+      "range": "1-2x"
+    },
+    {
+      "term": "data roaming",
+      "range": "1-4x"
+    },
+    {
+      "term": "app",
+      "range": "1-7x"
+    },
+    {
+      "term": "qr code",
+      "range": "1-7x"
+    },
+    {
+      "term": "stay connected",
+      "range": "1x"
+    },
+    {
+      "term": "activate",
+      "range": "1-7x"
+    },
+    {
+      "term": "5g",
+      "range": "1-2x"
+    },
+    {
+      "term": "installing",
+      "range": "1-6x"
+    },
+    {
+      "term": "physical sim",
+      "range": "1-3x"
+    },
+    {
+      "term": "sms",
+      "range": "1-2x"
+    },
+    {
+      "term": "destination",
+      "range": "1-3x"
+    },
+    {
+      "term": "mobile data",
+      "range": "1-2x"
+    },
+    {
+      "term": "4g",
+      "range": "1-2x"
+    },
+    {
+      "term": "7 days",
+      "range": "1-7x"
+    },
+    {
+      "term": "operator",
+      "range": "1x"
+    },
+    {
+      "term": "wifi",
+      "range": "1-2x"
+    },
+    {
+      "term": "traveler",
+      "range": "1-3x"
+    },
+    {
+      "term": "activation",
+      "range": "1x"
+    },
+    {
+      "term": "manually",
+      "range": "1x"
+    },
+    {
+      "term": "connectivity",
+      "range": "1-2x"
+    },
+    {
+      "term": "hkt",
+      "range": "1x"
+    },
+    {
+      "term": "verification",
+      "range": "1x"
+    }
+  ],
+  "extended_terms": [
+    "esims for hong kong",
+    "esim provider",
+    "trip to hong kong",
+    "esim with unlimited data",
+    "best esim",
+    "network in hong kong",
+    "airalo esim",
+    "holafly esim",
+    "esim in hong kong",
+    "gb",
+    "arriving in hong kong",
+    "nomad",
+    "using an esim",
+    "unlimited data plans",
+    "local hong kong",
+    "tourist sim cards",
+    "arriving at hong kong",
+    "esim for your trip",
+    "best prepaid",
+    "refund",
+    "validity",
+    "scan the qr code",
+    "csl",
+    "make phone calls",
+    "tourist esims",
+    "international airport",
+    "cellular data",
+    "hkmobile",
+    "esim prices",
+    "supported network",
+    "roaming charges",
+    "smartphone",
+    "even cheaper",
+    "calls and sms",
+    "mobile data network",
+    "hong kong without",
+    "in-depth",
+    "local phone number",
+    "mb",
+    "easiest way",
+    "whatsapp",
+    "internet access",
+    "multiple countries",
+    "google maps",
+    "hassle",
+    "good value",
+    "value for money",
+    "touch with family",
+    "email address",
+    "peace of mind",
+    "esim gets",
+    "network provider",
+    "internet connection",
+    "mainland",
+    "shenzhen",
+    "otp",
+    "login",
+    "detailed guide",
+    "installed directly",
+    "internet usage",
+    "real-world",
+    "already traveling",
+    "whether you're traveling"
+  ],
+  "extended_terms_with_ranges": [
+    {
+      "term": "esims for hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "esim provider",
+      "range": "1x"
+    },
+    {
+      "term": "trip to hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "esim with unlimited data",
+      "range": "1x"
+    },
+    {
+      "term": "best esim",
+      "range": "1-2x"
+    },
+    {
+      "term": "network in hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "airalo esim",
+      "range": "1-3x"
+    },
+    {
+      "term": "holafly esim",
+      "range": "1-2x"
+    },
+    {
+      "term": "esim in hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "gb",
+      "range": "1-3x"
+    },
+    {
+      "term": "arriving in hong kong",
+      "range": "1-2x"
+    },
+    {
+      "term": "nomad",
+      "range": "1-6x"
+    },
+    {
+      "term": "using an esim",
+      "range": "1x"
+    },
+    {
+      "term": "unlimited data plans",
+      "range": "1x"
+    },
+    {
+      "term": "local hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "tourist sim cards",
+      "range": "1x"
+    },
+    {
+      "term": "arriving at hong kong",
+      "range": "1x"
+    },
+    {
+      "term": "esim for your trip",
+      "range": "1x"
+    },
+    {
+      "term": "best prepaid",
+      "range": "1x"
+    },
+    {
+      "term": "refund",
+      "range": "1x"
+    },
+    {
+      "term": "validity",
+      "range": "1-5x"
+    },
+    {
+      "term": "scan the qr code",
+      "range": "1x"
+    },
+    {
+      "term": "csl",
+      "range": "1-2x"
+    },
+    {
+      "term": "make phone calls",
+      "range": "1x"
+    },
+    {
+      "term": "tourist esims",
+      "range": "1x"
+    },
+    {
+      "term": "international airport",
+      "range": "1-3x"
+    },
+    {
+      "term": "cellular data",
+      "range": "1x"
+    },
+    {
+      "term": "hkmobile",
+      "range": "1-2x"
+    },
+    {
+      "term": "esim prices",
+      "range": "1x"
+    },
+    {
+      "term": "supported network",
+      "range": "1x"
+    },
+    {
+      "term": "roaming charges",
+      "range": "1-2x"
+    },
+    {
+      "term": "smartphone",
+      "range": "1-2x"
+    },
+    {
+      "term": "even cheaper",
+      "range": "1x"
+    },
+    {
+      "term": "calls and sms",
+      "range": "1x"
+    },
+    {
+      "term": "mobile data network",
+      "range": "1x"
+    },
+    {
+      "term": "hong kong without",
+      "range": "1x"
+    },
+    {
+      "term": "in-depth",
+      "range": "1x"
+    },
+    {
+      "term": "local phone number",
+      "range": "1x"
+    },
+    {
+      "term": "mb",
+      "range": "1x"
+    },
+    {
+      "term": "easiest way",
+      "range": "1x"
+    },
+    {
+      "term": "whatsapp",
+      "range": "1x"
+    },
+    {
+      "term": "internet access",
+      "range": "1x"
+    },
+    {
+      "term": "multiple countries",
+      "range": "1x"
+    },
+    {
+      "term": "google maps",
+      "range": "1x"
+    },
+    {
+      "term": "hassle",
+      "range": "1x"
+    },
+    {
+      "term": "good value",
+      "range": "1x"
+    },
+    {
+      "term": "value for money",
+      "range": "1x"
+    },
+    {
+      "term": "touch with family",
+      "range": "1x"
+    },
+    {
+      "term": "email address",
+      "range": "1x"
+    },
+    {
+      "term": "peace of mind",
+      "range": "1x"
+    },
+    {
+      "term": "esim gets",
+      "range": "1x"
+    },
+    {
+      "term": "network provider",
+      "range": "1x"
+    },
+    {
+      "term": "internet connection",
+      "range": "1x"
+    },
+    {
+      "term": "mainland",
+      "range": "1x"
+    },
+    {
+      "term": "shenzhen",
+      "range": "1x"
+    },
+    {
+      "term": "otp",
+      "range": "1x"
+    },
+    {
+      "term": "login",
+      "range": "1x"
+    },
+    {
+      "term": "detailed guide",
+      "range": "1x"
+    },
+    {
+      "term": "installed directly",
+      "range": "1x"
+    },
+    {
+      "term": "internet usage",
+      "range": "1x"
+    },
+    {
+      "term": "real-world",
+      "range": "1x"
+    },
+    {
+      "term": "already traveling",
+      "range": "1x"
+    },
+    {
+      "term": "whether you're traveling",
+      "range": "1x"
+    }
+  ],
+  "entities": [
+    "Roaming",
+    "ESIM",
+    "SIM card",
+    "Internet",
+    "Prepaid mobile phone",
+    "Hong Kong",
+    "Data",
+    "Internet access",
+    "Telephone",
+    "5G",
+    "4G",
+    "Hong Kong Telecom",
+    "SMS",
+    "Mobile app",
+    "Email",
+    "Mobile broadband",
+    "Money",
+    "FAQ",
+    "China",
+    "Dual SIM",
+    "QR code",
+    "NordVPN",
+    "CSL Mobile",
+    "Wi-Fi",
+    "Speed",
+    "Cellular network",
+    "Smartphone",
+    "Telephone number",
+    "Holafly",
+    "Nomad",
+    "Macau",
+    "Troubleshooting",
+    "Pricing",
+    "Saily",
+    "MobiMatter",
+    "Information",
+    "Airalo",
+    "Customer service",
+    "Online chat",
+    "Mong Kok",
+    "Price",
+    "Customer",
+    "Mobile phone",
+    "Tethering",
+    "WhatsApp"
+  ],
+  "paa": [
+    {
+      "q": "Should I get an eSIM for Hong Kong?"
+    },
+    {
+      "q": "Is eSIM supported in Hong Kong?"
+    },
+    {
+      "q": "Is Airalo good in Hong Kong?"
+    },
+    {
+      "q": "Can I use an eSIM for data only in Hong Kong?"
+    }
+  ],
+  "questions": []
+}

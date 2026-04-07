@@ -1,0 +1,250 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const blogPosts = await getCollection('blog');
+
+// Travel tips = blog posts without a country category field
+const tipsMap = new Map(
+  blogPosts
+    .filter(p => !p.data.category)
+    .map(p => [p.id, p])
+);
+
+// 7 clusters — slugs must match the blog post IDs exactly
+const clusters = [
+  {
+    label: 'Packing',
+    description: 'What to bring, how to pack it, and what you\'ll wish you\'d left at home.',
+    slugs: [
+      'ultimate-packing-list',
+      'what-to-pack-in-a-carry-on',
+      'toiletries-packing-list',
+      'backpacking-packing-list',
+      'road-trip-packing-list',
+      'packing-list-for-traveling-abroad',
+    ],
+  },
+  {
+    label: 'Solo & First-Time Travel',
+    description: 'Everything you need to know before you go — especially if it\'s your first time doing this alone.',
+    slugs: [
+      'solo-travel-tips',
+      'first-time-flying-tips',
+      'tips-for-flying-with-anxiety',
+      'solo-female-travel-tips',
+      'international-travel-checklist',
+    ],
+  },
+  {
+    label: 'Flying & Airports',
+    description: 'How to get there without arriving as a wreck.',
+    slugs: [
+      'how-to-avoid-jet-lag',
+      'things-to-do-on-a-long-flight',
+      'how-to-find-cheap-flights',
+      'how-to-get-airport-lounge-access',
+      'best-flight-price-tracker-apps',
+      'flying-with-a-newborn',
+      'what-can-you-bring-on-a-plane',
+    ],
+  },
+  {
+    label: 'Budget & Planning',
+    description: 'Spend less. Plan smarter. Actually enjoy the trip instead of stressing about it.',
+    slugs: [
+      'how-to-travel-on-a-budget',
+      'tips-for-traveling-internationally',
+      'road-trip-checklist',
+      'cross-country-road-trip-planning',
+      'international-travel-tips',
+      'what-to-bring-on-a-road-trip',
+    ],
+  },
+  {
+    label: 'Travel Apps & Tools',
+    description: 'The apps worth installing, and the ones you can skip.',
+    slugs: [
+      'best-travel-apps',
+      'best-trip-planner-apps',
+      'how-to-use-your-phone-abroad',
+      'travel-guide-vs-winging-it',
+    ],
+  },
+  {
+    label: 'Digital Nomad',
+    description: 'Working while traveling. Not as glamorous as Instagram makes it look. Still worth it.',
+    slugs: [
+      'how-to-become-a-digital-nomad',
+      'digital-nomad-lifestyle',
+      'digital-nomad-packing-list',
+      'working-from-cafes-abroad',
+    ],
+  },
+  {
+    label: 'Safety & Miscellaneous',
+    description: 'The stuff that doesn\'t fit anywhere else but still matters.',
+    slugs: [
+      'travel-safety-tips',
+      'travel-photography-tips',
+      'one-bag-travel',
+    ],
+  },
+];
+
+// Resolve posts for each cluster (filter out any that don't exist yet)
+const resolvedClusters = clusters.map(c => ({
+  ...c,
+  posts: c.slugs.map(s => tipsMap.get(s)).filter(Boolean),
+}));
+---
+
+<BaseLayout
+  title="Travel Tips | Mika Wanders"
+  description="Practical advice built through years of getting it wrong first. Packing, planning, flying, budgeting — everything I wish someone had told me before I left."
+>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+  .mika-serif { font-family: 'Playfair Display', Georgia, serif; }
+
+  .tips-pill {
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2563eb;
+    background: #EFF6FF;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    border: 1px solid #BFDBFE;
+  }
+
+  .cluster-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #1C1410;
+  }
+  .cluster-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.5rem, 3vw, 1.875rem);
+    font-weight: 700;
+    color: #1C1410;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  @media (max-width: 900px) { .posts-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 550px) { .posts-grid { grid-template-columns: 1fr; } }
+
+  .post-tile {
+    display: block; text-decoration: none;
+    background: white; border: 1px solid #EDE8E2;
+    border-radius: 0.625rem; overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .post-tile:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-color: #D4CBBF; transform: translateY(-2px);
+  }
+  .post-tile:hover .tile-title { color: #2563eb; }
+  .tile-img-wrap {
+    position: relative; width: 100%; height: 160px; overflow: hidden;
+    background: linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .tile-img-wrap img {
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; display: block; transition: transform 0.3s;
+  }
+  .post-tile:hover .tile-img-wrap img { transform: scale(1.03); }
+  .tile-body { padding: 0.875rem 1.125rem 1.125rem; }
+  .tile-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 0.9375rem; font-weight: 600; color: #1C1410;
+    line-height: 1.4; margin: 0 0 0.375rem; transition: color 0.15s;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .tile-excerpt {
+    font-size: 0.8125rem; color: #7A7069; line-height: 1.6;
+    margin: 0 0 0.625rem;
+    display: -webkit-box; -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .tile-read { font-weight: 600; color: #2563eb; font-size: 0.75rem; }
+</style>
+
+<!-- Page header -->
+<section style="padding: 3.5rem 1.5rem 2.5rem; max-width: 58rem; margin: 0 auto;">
+  <span style="font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #2563eb; display: block; margin-bottom: 0.5rem;">
+    Mika Wanders · Travel Tips
+  </span>
+  <h1 class="mika-serif" style="font-size: clamp(1.875rem, 5vw, 2.75rem); font-weight: 700; color: #1C1410; margin: 0 0 0.875rem; letter-spacing: -0.025em; line-height: 1.15;">
+    Practical stuff that actually works
+  </h1>
+  <p style="color: #6B6259; font-size: 1.0625rem; line-height: 1.7; margin: 0; max-width: 36rem;">
+    Packing, flying, budgeting, surviving long trips. Advice built through years of getting it wrong first.
+  </p>
+</section>
+
+<!-- Cluster nav pills -->
+<section style="padding: 0 1.5rem 2.5rem; max-width: 58rem; margin: 0 auto;">
+  <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+    {resolvedClusters.map(c => (
+      <a
+        href={`#${c.label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+        style="display: inline-block; font-size: 0.8125rem; font-weight: 500; color: #6B6259; background: #F3EFE9; border: 1px solid #EDE8E2; padding: 0.375rem 0.875rem; border-radius: 2rem; text-decoration: none; transition: background 0.15s, color 0.15s, border-color 0.15s;"
+        onmouseover="this.style.background='#EDE8E2'; this.style.color='#1C1410';"
+        onmouseout="this.style.background='#F3EFE9'; this.style.color='#6B6259';"
+      >
+        {c.label}
+      </a>
+    ))}
+  </div>
+</section>
+
+<!-- Clusters -->
+<section style="padding: 0 1.5rem 5rem; max-width: 58rem; margin: 0 auto;">
+  {resolvedClusters.filter(c => c.posts.length > 0).map(cluster => (
+    <div
+      id={cluster.label.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
+      style="margin-bottom: 4rem; scroll-margin-top: 1.5rem;"
+    >
+      <div class="cluster-header">
+        <h2 class="cluster-title">{cluster.label}</h2>
+      </div>
+      <p style="font-size: 0.9375rem; color: #6B6259; margin: 0 0 1.5rem; line-height: 1.65;">
+        {cluster.description}
+      </p>
+
+      <div class="posts-grid">
+        {cluster.posts.map(post => (
+          <a class="post-tile" href={`/blog/${post.id}/`}>
+            <div class="tile-img-wrap">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="z-index:0;">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />}
+            </div>
+            <div class="tile-body">
+              <h3 class="tile-title">{post.data.title}</h3>
+              <p class="tile-excerpt">{post.data.description}</p>
+              <span class="tile-read">Read →</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  ))}
+</section>
+
+</BaseLayout>

@@ -1,0 +1,75 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  country: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  heroImage?: string;
+  author?: string;
+  pillar?: string;
+  region?: string;
+}
+
+const { title, description, country, pubDate, updatedDate, heroImage, author = 'Mika Soren', pillar, region } = Astro.props;
+
+const regionLabels: Record<string, string> = {
+  europe: 'Best eSIMs for Europe',
+  asia: 'Best eSIMs for Asia',
+  americas: 'Best eSIMs for the Americas',
+  'middle-east-africa': 'Best eSIMs for Africa & the Middle East',
+  oceania: 'Best eSIMs for Oceania',
+};
+const pillarLabel = region ? (regionLabels[region] ?? 'eSIM Guides') : 'eSIM Guides';
+const pillarUrl = pillar ? `/blog/${pillar}/` : '/blog/travel-esim-guide/';
+
+const formattedPub = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout title={title} description={description} image={heroImage}>
+  <div style="max-width: 52rem; margin: 0 auto; padding: 2rem 1.5rem 4rem;">
+
+    <!-- Breadcrumb -->
+    <nav style="font-size: 0.8125rem; color: #a8a29e; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.375rem;">
+      <a href="/" style="color: #78716c; text-decoration: none;">Home</a>
+      <span>›</span>
+      <a href={pillarUrl} style="color: #78716c; text-decoration: none;">{pillarLabel}</a>
+      <span>›</span>
+      <span style="color: #1c1917;">Best eSIM for {country}</span>
+    </nav>
+
+    <!-- Hero image -->
+    {heroImage && (
+      <div style="border-radius: 0.75rem; overflow: hidden; margin-bottom: 2rem; aspect-ratio: 16/7; background: #e8e4df;">
+        <img src={heroImage} alt={`eSIM in ${country}`} style="width: 100%; height: 100%; object-fit: cover;" loading="eager" />
+      </div>
+    )}
+
+    <!-- Meta bar -->
+    <div style="display: flex; align-items: center; gap: 0.75rem; font-size: 0.8125rem; color: #78716c; margin-bottom: 2rem; padding-bottom: 1.25rem; border-bottom: 1px solid #e8e4df; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 0.375rem;">
+        <img src="/images/mika-avatar.jpg" alt="Mika Soren" style="width: 1.5rem; height: 1.5rem; border-radius: 50%; object-fit: cover;" />
+        <span style="font-weight: 500; color: #44403c;">{author}</span>
+      </div>
+      <span style="color: #d4cdc8;">·</span>
+      <time datetime={pubDate.toISOString()}>Published {formattedPub}</time>
+      {formattedUpdated && (
+        <>
+          <span style="color: #d4cdc8;">·</span>
+          <time datetime={updatedDate!.toISOString()}>Updated {formattedUpdated}</time>
+        </>
+      )}
+    </div>
+
+    <!-- H1 -->
+    <h1 style="font-size: 2rem; font-weight: 700; line-height: 1.2; color: #1c1917; margin: 0 0 2rem;">{title}</h1>
+
+    <!-- Content -->
+    <div class="prose">
+      <slot />
+    </div>
+  </div>
+</BaseLayout>

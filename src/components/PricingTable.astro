@@ -1,0 +1,55 @@
+---
+interface Plan {
+  data: string;
+  duration: string;
+  price: number;
+  wasPrice?: number;
+}
+
+interface Props {
+  plans: Plan[];
+  provider: string;
+  ctaUrl?: string;
+}
+
+const { plans, provider, ctaUrl } = Astro.props;
+---
+
+<div class="overflow-x-auto my-4">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-50">
+        <th class="text-left px-4 py-3 font-semibold text-gray-700 border-b-2 border-gray-200">Data</th>
+        <th class="text-left px-4 py-3 font-semibold text-gray-700 border-b-2 border-gray-200">Duration</th>
+        <th class="text-left px-4 py-3 font-semibold text-gray-700 border-b-2 border-gray-200">Price</th>
+        {ctaUrl && <th class="px-4 py-3 border-b-2 border-gray-200"></th>}
+      </tr>
+    </thead>
+    <tbody>
+      {plans.map(plan => (
+        <tr class="border-b border-gray-100 hover:bg-gray-50">
+          <td class="px-4 py-3 font-medium">{plan.data}</td>
+          <td class="px-4 py-3 text-gray-600">{plan.duration}</td>
+          <td class="px-4 py-3">
+            <span class="font-semibold text-gray-900">${plan.price.toFixed(2)}</span>
+            {plan.wasPrice && (
+              <span class="ml-2 text-xs text-gray-400 line-through">${plan.wasPrice.toFixed(2)}</span>
+            )}
+          </td>
+          {ctaUrl && (
+            <td class="px-4 py-3 text-right">
+              <a
+                href={ctaUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                class="text-blue-600 hover:text-blue-800 text-sm font-medium"
+              >
+                Get plan →
+              </a>
+            </td>
+          )}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

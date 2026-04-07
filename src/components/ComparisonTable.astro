@@ -1,0 +1,63 @@
+---
+interface Provider {
+  name: string;
+  rating: number;
+  cheapestPlan: string;
+  bestFor: string;
+  ctaUrl?: string;
+}
+
+interface Props {
+  providers: Provider[];
+}
+
+const { providers } = Astro.props;
+
+function stars(rating: number) {
+  return '★'.repeat(Math.floor(rating)) + (rating % 1 >= 0.5 ? '½' : '') + '☆'.repeat(5 - Math.ceil(rating));
+}
+---
+
+<div class="overflow-x-auto my-6 rounded-xl border border-gray-200">
+  <table class="w-full text-sm border-collapse">
+    <thead>
+      <tr class="bg-gray-50 border-b border-gray-200">
+        <th class="text-left px-4 py-3 font-semibold text-gray-700">Provider</th>
+        <th class="text-left px-4 py-3 font-semibold text-gray-700">Rating</th>
+        <th class="text-left px-4 py-3 font-semibold text-gray-700">Cheapest Plan</th>
+        <th class="text-left px-4 py-3 font-semibold text-gray-700">Best For</th>
+        <th class="px-4 py-3"></th>
+      </tr>
+    </thead>
+    <tbody>
+      {providers.map((p, i) => (
+        <tr class={`border-b border-gray-100 ${i === 0 ? 'bg-blue-50' : 'hover:bg-gray-50'}`}>
+          <td class="px-4 py-3 font-medium">
+            {i === 0 && <span class="inline-block bg-blue-600 text-white text-xs px-2 py-0.5 rounded mr-2">#1</span>}
+            {p.name}
+          </td>
+          <td class="px-4 py-3">
+            <span class="text-amber-500 text-xs">{stars(p.rating)}</span>
+            <span class="ml-1 text-gray-600">{p.rating}</span>
+          </td>
+          <td class="px-4 py-3 text-gray-700">{p.cheapestPlan}</td>
+          <td class="px-4 py-3 text-gray-600">{p.bestFor}</td>
+          <td class="px-4 py-3 text-right">
+            {p.ctaUrl ? (
+              <a
+                href={p.ctaUrl}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors"
+              >
+                Get eSIM
+              </a>
+            ) : (
+              <span class="text-gray-400 text-xs">No link</span>
+            )}
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

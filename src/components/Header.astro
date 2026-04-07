@@ -1,0 +1,57 @@
+---
+const navLinks = [
+  { href: '/blog/travel-esim-guide/', label: 'eSIM Guide' },
+  { href: '/travel-tips/', label: 'Travel Tips' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/about/', label: 'About' },
+];
+
+const currentPath = Astro.url.pathname;
+const isGuide = currentPath === '/blog/travel-esim-guide/';
+const isTips = currentPath.startsWith('/travel-tips/');
+const isBlog = currentPath.startsWith('/blog/') && !isGuide;
+const isAbout = currentPath.startsWith('/about/');
+---
+
+<!-- Thin accent bar at top -->
+<div style="height: 3px; background: linear-gradient(90deg, #2563eb, #7c3aed, #2563eb);"></div>
+
+<header style="background: white; border-bottom: 1px solid #e8e4df;">
+  <div style="max-width: 52rem; margin: 0 auto; padding: 0 1.5rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; height: 3.5rem;">
+
+      <!-- Logo -->
+      <a href="/" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+        <img src="/images/mika-avatar.jpg" alt="Mika Soren" style="width: 1.75rem; height: 1.75rem; border-radius: 50%; object-fit: cover; border: 1.5px solid #e8e4df;" />
+        <span style="font-weight: 700; font-size: 1rem; color: #1c1917; letter-spacing: -0.02em;">
+          Mika Wanders
+        </span>
+      </a>
+
+      <!-- Nav -->
+      <nav style="display: flex; align-items: center; gap: 1.5rem;">
+        {navLinks.map(link => {
+          const active =
+            (link.label === 'eSIM Guide' && isGuide) ||
+            (link.label === 'Travel Tips' && isTips) ||
+            (link.label === 'Blog' && isBlog) ||
+            (link.label === 'About' && isAbout);
+          return (
+            <a
+              href={link.href}
+              style={`
+                font-size: 0.875rem;
+                font-weight: ${active ? '600' : '500'};
+                color: ${active ? '#2563eb' : '#57534e'};
+                text-decoration: none;
+                transition: color 0.15s;
+              `}
+            >
+              {link.label}
+            </a>
+          );
+        })}
+      </nav>
+    </div>
+  </div>
+</header>

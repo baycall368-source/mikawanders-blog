@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const pillars = await getCollection('pillars');
+
+  const blogPaths = posts.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry, type: 'blog' as const },
+  }));
+
+  const pillarPaths = pillars.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry, type: 'pillar' as const },
+  }));
+
+  return [...blogPaths, ...pillarPaths];
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, description, pubDate, updatedDate, heroImage, author, category } = entry.data;
+---
+
+<BlogPost
+  title={title}
+  description={description}
+  pubDate={pubDate}
+  updatedDate={updatedDate}
+  heroImage={heroImage}
+  author={author}
+  category={category}
+>
+  <Content />
+</BlogPost>

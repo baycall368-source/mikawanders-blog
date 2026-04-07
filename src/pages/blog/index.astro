@@ -1,0 +1,388 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const blogPosts = await getCollection('blog');
+const pillars = await getCollection('pillars');
+const posts = [...blogPosts, ...pillars].sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const featured = posts[0];
+const rest = posts.slice(1);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+const regionMap: Record<string, string> = {
+  argentina: 'South America', australia: 'Oceania', austria: 'Europe',
+  belgium: 'Europe', brazil: 'South America', canada: 'North America',
+  chile: 'South America', china: 'Asia', colombia: 'South America',
+  'czech-republic': 'Europe', denmark: 'Europe', france: 'Europe',
+  germany: 'Europe', greece: 'Europe', 'hong-kong': 'Asia',
+  hungary: 'Europe', india: 'Asia', indonesia: 'Asia', italy: 'Europe',
+  japan: 'Asia', kenya: 'Africa', malaysia: 'Asia', mexico: 'North America',
+  morocco: 'Africa', nepal: 'Asia', netherlands: 'Europe',
+  'new-zealand': 'Oceania', norway: 'Europe', peru: 'South America',
+  philippines: 'Asia', poland: 'Europe', portugal: 'Europe',
+  romania: 'Europe', 'saudi-arabia': 'Middle East', singapore: 'Asia',
+  'south-africa': 'Africa', 'south-korea': 'Asia', spain: 'Europe',
+  sweden: 'Europe', switzerland: 'Europe', tanzania: 'Africa',
+  thailand: 'Asia', tunisia: 'Africa', turkey: 'Middle East',
+  uae: 'Middle East', ukraine: 'Europe', 'united-kingdom': 'Europe',
+  'united-states': 'North America',
+};
+
+function region(category: string | undefined) {
+  return category ? (regionMap[category] ?? 'Travel') : 'Travel';
+}
+
+function heroImage(post: any) {
+  return post.data.heroImage || `/images/mika-${post.data.category || 'default'}.jpg`;
+}
+---
+
+<BaseLayout
+  title="Blog | Mika Wanders"
+  description="Travel stories, field notes, and hard-won advice from five years of full-time travel. Written from wherever I happen to be."
+>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+  .mika-serif { font-family: 'Playfair Display', Georgia, serif; }
+
+  .region-pill {
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #B5673F;
+    background: #FAF0E8;
+    padding: 0.2rem 0.6rem;
+    border-radius: 2rem;
+    border: 1px solid #EDD5BF;
+  }
+
+  /* Featured post */
+  .featured-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-decoration: none;
+    background: white;
+    border: 1px solid #EDE8E2;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .featured-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border-color: #D4CBBF;
+  }
+  .featured-card:hover .featured-title {
+    color: #B5673F;
+  }
+  .featured-img-wrap {
+    position: relative;
+    overflow: hidden;
+    min-height: 280px;
+    background: linear-gradient(135deg, #F0EBE5 0%, #E4DDD5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .featured-img-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .featured-img-wrap .img-placeholder-icon {
+    color: #C4B8AC;
+    z-index: 0;
+  }
+  .featured-content {
+    padding: 2rem 2rem 1.75rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .featured-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9C9088;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .featured-dot {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #C9BFB7;
+    display: inline-block;
+  }
+  .featured-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    color: #1C1410;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin: 0 0 0.875rem;
+    transition: color 0.15s;
+  }
+  .featured-excerpt {
+    font-size: 0.9375rem;
+    color: #6B6259;
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+  }
+  .featured-meta {
+    font-size: 0.8125rem;
+    color: #9C9088;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .read-more {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #B5673F;
+    margin-left: auto;
+    letter-spacing: 0.01em;
+  }
+
+  @media (max-width: 700px) {
+    .featured-card {
+      grid-template-columns: 1fr;
+    }
+    .featured-img-wrap {
+      min-height: 200px;
+      max-height: 220px;
+    }
+    .featured-content {
+      padding: 1.25rem 1.5rem 1.5rem;
+    }
+  }
+
+  /* Tile grid */
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 900px) {
+    .posts-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 550px) {
+    .posts-grid { grid-template-columns: 1fr; }
+  }
+
+  .post-tile {
+    display: block;
+    text-decoration: none;
+    background: white;
+    border: 1px solid #EDE8E2;
+    border-radius: 0.625rem;
+    overflow: hidden;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+  }
+  .post-tile:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-color: #D4CBBF;
+    transform: translateY(-2px);
+  }
+  .post-tile:hover .tile-title {
+    color: #B5673F;
+  }
+
+  .tile-img-wrap {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #F0EBE5 0%, #E4DDD5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile-img-wrap img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s;
+  }
+  .post-tile:hover .tile-img-wrap img {
+    transform: scale(1.03);
+  }
+  .tile-img-wrap .img-placeholder-icon {
+    color: #C4B8AC;
+    z-index: 0;
+  }
+  .tile-region-overlay {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+  }
+
+  .tile-body {
+    padding: 1rem 1.25rem 1.25rem;
+  }
+  .tile-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1C1410;
+    line-height: 1.4;
+    margin: 0 0 0.5rem;
+    transition: color 0.15s;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .tile-excerpt {
+    font-size: 0.8125rem;
+    color: #7A7069;
+    line-height: 1.6;
+    margin: 0 0 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .tile-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #A89E96;
+  }
+  .tile-read {
+    font-weight: 600;
+    color: #B5673F;
+    font-size: 0.75rem;
+  }
+
+  /* Dividers */
+  .section-divider {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.75rem;
+  }
+  .section-divider-label {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9C9088;
+    white-space: nowrap;
+  }
+  .section-divider-line {
+    flex: 1;
+    height: 1px;
+    background: #EDE8E2;
+  }
+</style>
+
+<!-- Page header -->
+<section style="padding: 3.5rem 1.5rem 2.5rem; max-width: 58rem; margin: 0 auto;">
+  <span style="font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #C47A5A; display: block; margin-bottom: 0.5rem;">
+    Mika Wanders · Blog
+  </span>
+  <h1 class="mika-serif" style="font-size: clamp(1.875rem, 5vw, 2.75rem); font-weight: 700; color: #1C1410; margin: 0 0 0.875rem; letter-spacing: -0.025em; line-height: 1.15;">
+    Stories from the road
+  </h1>
+  <p style="color: #6B6259; font-size: 1.0625rem; line-height: 1.7; margin: 0; max-width: 34rem;">
+    Five years full-time. Forty-something countries. These are the things worth writing down.
+  </p>
+</section>
+
+<!-- Featured post -->
+<section style="padding: 0 1.5rem; max-width: 58rem; margin: 0 auto;">
+
+  {featured && (
+    <>
+      <div class="section-divider">
+        <span class="section-divider-label">Latest</span>
+        <div class="section-divider-line"></div>
+      </div>
+
+      <a class="featured-card" href={`/blog/${featured.id}/`}>
+        <div class="featured-img-wrap">
+          <svg class="img-placeholder-icon" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <img src={heroImage(featured)} alt={featured.data.title} loading="eager" />
+        </div>
+        <div class="featured-content">
+          <div class="featured-eyebrow">
+            <span class="region-pill">{region(featured.data.category)}</span>
+            <span class="featured-dot"></span>
+            <span>{formatDate(featured.data.pubDate)}</span>
+          </div>
+          <h2 class="featured-title">{featured.data.title}</h2>
+          <p class="featured-excerpt">{featured.data.description}</p>
+          <div class="featured-meta">
+            <img src="/images/mika-avatar.jpg" alt="Mika" style="width: 1.375rem; height: 1.375rem; border-radius: 50%; object-fit: cover; border: 1.5px solid #EDE8E2;" />
+            <span>Mika Soren</span>
+            <span style="color: #D4CBBF;">·</span>
+            <span class="read-more">Read story →</span>
+          </div>
+        </div>
+      </a>
+    </>
+  )}
+
+  <!-- Grid -->
+  {rest.length > 0 && (
+    <>
+      <div class="section-divider">
+        <span class="section-divider-label">All stories</span>
+        <div class="section-divider-line"></div>
+      </div>
+
+      <div class="posts-grid" style="margin-bottom: 5rem;">
+        {rest.map(post => (
+          <a class="post-tile" href={`/blog/${post.id}/`}>
+            <div class="tile-img-wrap">
+              <svg class="img-placeholder-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <img src={heroImage(post)} alt={post.data.title} loading="lazy" />
+              <div class="tile-region-overlay">
+                <span class="region-pill">{region(post.data.category)}</span>
+              </div>
+            </div>
+            <div class="tile-body">
+              <h2 class="tile-title">{post.data.title}</h2>
+              <p class="tile-excerpt">{post.data.description}</p>
+              <div class="tile-footer">
+                <span>{formatDate(post.data.pubDate)}</span>
+                <span class="tile-read">Read →</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+
+</section>
+
+</BaseLayout>

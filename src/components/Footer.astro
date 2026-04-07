@@ -1,0 +1,35 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer style="border-top: 1px solid #e8e4df; background: white; margin-top: 5rem;">
+  <div style="max-width: 52rem; margin: 0 auto; padding: 2.5rem 1.5rem;">
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <img src="/images/mika-avatar.jpg" alt="Mika Soren" style="width: 1.5rem; height: 1.5rem; border-radius: 50%; object-fit: cover;" />
+          <span style="font-weight: 600; color: #1c1917; font-size: 0.9375rem;">Mika Wanders</span>
+        </div>
+        <nav style="display: flex; gap: 1.25rem;">
+          {[
+            { href: '/about/', label: 'About' },
+            { href: '/blog/', label: 'Blog' },
+            { href: '/privacy/', label: 'Privacy' },
+          ].map(link => (
+            <a href={link.href} style="font-size: 0.875rem; color: #78716c; text-decoration: none;">
+              {link.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+      <div style="border-top: 1px solid #f0ece8; padding-top: 1rem;">
+        <p style="font-size: 0.8125rem; color: #a8a29e; margin: 0 0 0.375rem;">
+          © {year} Mika Wanders. Written from hostels, cafes, and the occasional airport floor.
+        </p>
+        <p style="font-size: 0.75rem; color: #c4bdb8; margin: 0;">
+          This site contains affiliate links. If you buy an eSIM through my links, I may earn a small commission at no extra cost to you.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
