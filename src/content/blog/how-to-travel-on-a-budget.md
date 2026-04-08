@@ -3,6 +3,7 @@ title: "How to travel on a budget: what actually works and what budget travel in
 description: "How to travel on a budget without making yourself miserable. The real savings (flights, accommodation, food, connectivity), the false economies, and what cheap travel actually looks like in 2026."
 pubDate: 2026-04-01
 heroImage: "/images/how-to-travel-on-a-budget.webp"
+heroImageAlt: "How to travel on a budget"
 author: "Mika Soren"
 ---
 

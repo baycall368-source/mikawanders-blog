@@ -3,6 +3,7 @@ title: "The best flight price tracker apps in 2026 (I've used all of them, here'
 description: "The best flight price tracker apps compared honestly: Google Flights, Hopper, Skyscanner, Kayak, and more. Which ones actually predict prices, which ones just track them, and which ones have nudged me into buying tickets I shouldn't have."
 pubDate: 2026-04-01
 heroImage: "/images/best-flight-price-tracker-apps.webp"
+heroImageAlt: "Best flight price tracker apps"
 author: "Mika Soren"
 ---
 

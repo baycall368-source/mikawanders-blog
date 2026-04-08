@@ -2,7 +2,8 @@
 title: "The United States is not one place: what I learned from six cities and a road trip through the southwest"
 description: "New York twice, a road trip from LA to Santa Fe, two weeks in New Orleans, and a week in Portland that extended itself. The USA is bigger and stranger and better than the version in everyone's head."
 pubDate: 2026-03-27
-heroImage: "/images/mika-usa.jpg"
+heroImage: "/images/usa-travel-guide.webp"
+heroImageAlt: "USA travel guide"
 author: "Mika Soren"
 category: "united-states"
 ---

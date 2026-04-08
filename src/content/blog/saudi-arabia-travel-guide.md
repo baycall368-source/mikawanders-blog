@@ -2,7 +2,8 @@
 title: "Saudi Arabia opened to tourism and I went to see what was there: AlUla, Riyadh, and the desert I didn't expect"
 description: "Saudi Arabia issued tourist visas in 2019. I went in 2023. AlUla and the Nabataean tombs, Riyadh's old and new city in the same afternoon, and the Empty Quarter on the horizon. A country in visible transformation."
 pubDate: 2026-03-27
-heroImage: "/images/mika-saudi-arabia.jpg"
+heroImage: "/images/saudi-arabia-travel-guide.webp"
+heroImageAlt: "Saudi Arabia travel guide"
 author: "Mika Soren"
 category: "saudi-arabia"
 ---

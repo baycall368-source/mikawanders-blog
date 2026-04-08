@@ -3,6 +3,7 @@ title: "Flying with a newborn: what nobody tells you until you're already on the
 description: "Flying with a newborn is survivable and even fine with the right prep. The feeding strategy, the gear you actually need, when to fly, and the things that will make the other passengers silently grateful."
 pubDate: 2026-04-01
 heroImage: "/images/flying-with-a-newborn.webp"
+heroImageAlt: "Flying with a newborn"
 author: "Mika Soren"
 ---
 

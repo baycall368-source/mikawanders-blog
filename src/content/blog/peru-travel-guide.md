@@ -2,7 +2,8 @@
 title: "Peru at altitude: Cusco, the Inca Trail, and the Sacred Valley I didn't want to leave"
 description: "Three weeks in Peru: the altitude sickness that humbled me in Cusco, the Inca Trail that was harder and more beautiful than advertised, and a week in the Sacred Valley that extended to ten days without my noticing."
 pubDate: 2026-03-27
-heroImage: "/images/mika-peru.jpg"
+heroImage: "/images/peru-travel-guide.webp"
+heroImageAlt: "Peru travel guide"
 author: "Mika Soren"
 category: "peru"
 ---

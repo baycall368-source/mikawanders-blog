@@ -2,7 +2,8 @@
 title: "Mexico City changed the way I think about cities: CDMX, Oaxaca, and the Yucatán"
 description: "Six weeks in Mexico City (I was supposed to stay two), a week in Oaxaca, and a drive through the Yucatán. The country that's been sitting next to the tourist trail all along."
 pubDate: 2026-03-27
-heroImage: "/images/mika-mexico.jpg"
+heroImage: "/images/mexico-travel-guide.webp"
+heroImageAlt: "Mexico travel guide"
 author: "Mika Soren"
 category: "mexico"
 ---

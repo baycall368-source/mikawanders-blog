@@ -2,7 +2,8 @@
 title: "Switzerland is expensive in a way that is almost impressive and worth it anyway: Zürich, the Bernese Oberland, and trains that run exactly on time"
 description: "Zürich for four days (better than the financial centre reputation suggests), a week in the Bernese Oberland hiking the Jungfrau region, and the train journey from Geneva to Zermatt that I keep recommending. Switzerland delivers on the landscape promise."
 pubDate: 2026-03-27
-heroImage: "/images/mika-switzerland.jpg"
+heroImage: "/images/switzerland-travel-guide.webp"
+heroImageAlt: "Switzerland travel guide"
 author: "Mika Soren"
 category: "switzerland"
 ---

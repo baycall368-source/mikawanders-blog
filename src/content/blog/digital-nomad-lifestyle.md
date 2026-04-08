@@ -3,6 +3,7 @@ title: "The digital nomad lifestyle: what it's actually like after 3 years of li
 description: "An honest look at the digital nomad lifestyle from someone who's been doing it full-time since 2019. The freedom, the loneliness, the finances, the routines, and whether it's as good as it looks."
 pubDate: 2026-04-01
 heroImage: "/images/digital-nomad-lifestyle.webp"
+heroImageAlt: "Digital nomad lifestyle"
 author: "Mika Soren"
 ---
 

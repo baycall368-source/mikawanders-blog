@@ -2,7 +2,8 @@
 title: "The Netherlands is not Amsterdam: what I found when I stopped treating it like a day trip"
 description: "Amsterdam for a week (done properly), Utrecht and Delft as day trips that became two-day stays, and cycling through the countryside between them. The Netherlands at the right pace is excellent."
 pubDate: 2026-03-27
-heroImage: "/images/mika-netherlands.jpg"
+heroImage: "/images/netherlands-travel-guide.webp"
+heroImageAlt: "Netherlands travel guide"
 author: "Mika Soren"
 category: "netherlands"
 ---

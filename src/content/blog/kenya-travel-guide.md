@@ -2,7 +2,8 @@
 title: "A giraffe licked my hand in Nairobi and I haven't been the same since: Kenya from the city to the bush to the coast"
 description: "Three weeks across Kenya: Nairobi's food scene and creative chaos, the Maasai Mara at dawn, Diani Beach doing its thing, and the matatu ride that took years off my life."
 pubDate: 2026-03-28
-heroImage: "/images/mika-kenya.jpg"
+heroImage: "/images/kenya-travel-guide.webp"
+heroImageAlt: "Kenya travel guide"
 author: "Mika Soren"
 category: "kenya"
 ---

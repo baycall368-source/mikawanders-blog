@@ -2,7 +2,8 @@
 title: "Copenhagen converted me from a sceptic: hygge is real, the food is extraordinary, and the cycling is non-negotiable"
 description: "Five days in Copenhagen that I extended to eight. The New Nordic food movement at prices ranging from very expensive to affordable, the harbour swimming in June, and why the cycling culture changed how I think about cities."
 pubDate: 2026-03-27
-heroImage: "/images/mika-denmark.jpg"
+heroImage: "/images/denmark-travel-guide.webp"
+heroImageAlt: "Denmark travel guide"
 author: "Mika Soren"
 category: "denmark"
 ---

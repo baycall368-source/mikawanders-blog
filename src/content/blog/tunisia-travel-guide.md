@@ -2,7 +2,8 @@
 title: "Tunisia is the North Africa trip I haven't taken yet (and my Moroccan travel brain won't shut up about it)"
 description: "I've done Morocco. I haven't done Tunisia. But friends who've been keep telling me I'm making a mistake, and the Star Wars filming locations alone might be enough to get me on a plane."
 pubDate: 2026-03-28
-heroImage: "/images/mika-tunisia.jpg"
+heroImage: "/images/tunisia-travel-guide.webp"
+heroImageAlt: "Tunisia travel guide"
 author: "Mika Soren"
 category: "tunisia"
 ---

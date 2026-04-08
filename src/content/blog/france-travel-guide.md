@@ -2,7 +2,8 @@
 title: "What three trips to France taught me about actually eating well there"
 description: "Paris, Lyon, and a farmhouse in Provence that I'm still not over. The restaurants, the markets, the mistakes, and the one rule that changed everything."
 pubDate: 2026-03-27
-heroImage: "/images/france-travel-guide.jpg"
+heroImage: "/images/france-travel-guide.webp"
+heroImageAlt: "France travel guide"
 author: "Mika Soren"
 category: "france"
 ---

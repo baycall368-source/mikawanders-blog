@@ -3,6 +3,7 @@ title: "What to pack in a carry-on (so you're not that person repacking at the g
 description: "A proper carry-on guide covering the actual rules, what fits and how, which airlines are brutal about size limits, and what changes when you're packing carry-on for a cold destination versus a beach trip."
 pubDate: 2026-04-01
 heroImage: "/images/what-to-pack-in-a-carry-on.webp"
+heroImageAlt: "What to pack in a carry-on"
 author: "Mika Soren"
 ---
 

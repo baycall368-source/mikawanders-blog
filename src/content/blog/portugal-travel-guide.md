@@ -2,7 +2,8 @@
 title: "Portugal at the right pace: Lisbon, Porto, and a week in the Alentejo I didn't plan"
 description: "Lisbon for ten days, Porto for a long weekend, and the Alentejo wine region that appeared between them when I missed a train. Portugal keeps being better than expected."
 pubDate: 2026-03-27
-heroImage: "/images/mika-portugal.jpg"
+heroImage: "/images/portugal-travel-guide.webp"
+heroImageAlt: "Portugal travel guide"
 author: "Mika Soren"
 category: "portugal"
 ---

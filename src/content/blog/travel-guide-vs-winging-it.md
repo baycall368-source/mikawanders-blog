@@ -3,6 +3,7 @@ title: "Travel guide vs winging it: I've done both, here's my honest verdict"
 description: "The travel guide debate: are they worth reading, or have apps and forums made them obsolete? Plus the honest case for winging it, and the specific situations where each approach actually works."
 pubDate: 2026-04-01
 heroImage: "/images/travel-guide-vs-winging-it.webp"
+heroImageAlt: "Travel guide vs winging it"
 author: "Mika Soren"
 ---
 

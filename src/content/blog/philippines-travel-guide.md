@@ -2,7 +2,8 @@
 title: "The Philippines is 7,641 islands and I've been to four: Palawan, Siargao, Cebu, and Manila in transit"
 description: "El Nido and the Bacuit Archipelago, Siargao for the surf and the quieter beaches, Cebu as a base for Malapascua, and Manila for longer than the transit advice suggests. The Philippines keeps changing your plans."
 pubDate: 2026-03-27
-heroImage: "/images/mika-philippines.jpg"
+heroImage: "/images/philippines-travel-guide.webp"
+heroImageAlt: "Philippines travel guide"
 author: "Mika Soren"
 category: "philippines"
 ---

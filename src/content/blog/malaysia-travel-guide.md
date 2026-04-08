@@ -2,7 +2,8 @@
 title: "Malaysia is the best eating country in Southeast Asia and I'll defend this: Penang, KL, and the Cameron Highlands"
 description: "Kuala Lumpur for a week, Penang for ten days (I was supposed to stay four), and the Cameron Highlands as the cool respite I didn't know I needed. Malaysia is criminally underrated."
 pubDate: 2026-03-27
-heroImage: "/images/mika-malaysia.jpg"
+heroImage: "/images/malaysia-travel-guide.webp"
+heroImageAlt: "Malaysia travel guide"
 author: "Mika Soren"
 category: "malaysia"
 ---

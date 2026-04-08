@@ -3,6 +3,7 @@ title: "Solo female travel tips: what actually keeps you safe (and what's just f
 description: "Solo female travel tips from someone who's traveled alone across 40+ countries. The real safety considerations, the fear that's overblown, how connectivity changes the risk calculus, and what changes country to country."
 pubDate: 2026-04-01
 heroImage: "/images/solo-female-travel-tips.webp"
+heroImageAlt: "Solo female travel tips"
 author: "Mika Soren"
 ---
 

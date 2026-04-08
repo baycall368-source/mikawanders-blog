@@ -3,6 +3,7 @@ title: "What can you bring on a plane: the actual rules, the confusing grey area
 description: "What can you bring on a plane in carry-on and checked luggage. The liquid rules, electronics, medications, food, sharp objects, and the things that are technically allowed but will make your life difficult."
 pubDate: 2026-04-01
 heroImage: "/images/what-can-you-bring-on-a-plane.webp"
+heroImageAlt: "What can you bring on a plane"
 author: "Mika Soren"
 ---
 

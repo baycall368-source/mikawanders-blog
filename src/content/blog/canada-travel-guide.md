@@ -2,7 +2,8 @@
 title: "Canada is very large and I have seen approximately 4% of it: Vancouver, Québec, and the Rockies"
 description: "Vancouver for three weeks as a base, a week in Québec City in winter (by accident), and the most spectacular drive I've done through Banff and Jasper. Canada is not what you think it is."
 pubDate: 2026-03-27
-heroImage: "/images/mika-canada.jpg"
+heroImage: "/images/canada-travel-guide.webp"
+heroImageAlt: "Canada travel guide"
 author: "Mika Soren"
 category: "canada"
 ---

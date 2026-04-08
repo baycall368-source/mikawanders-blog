@@ -3,6 +3,7 @@ title: "How to become a digital nomad: what it actually takes (and what most art
 description: "How to become a digital nomad from someone who's been doing it since 2019. The remote work, the finances, the visa reality, the loneliness, and the parts that are genuinely as good as they look."
 pubDate: 2026-04-01
 heroImage: "/images/how-to-become-a-digital-nomad.webp"
+heroImageAlt: "How to become a digital nomad"
 author: "Mika Soren"
 ---
 

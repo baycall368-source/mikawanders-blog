@@ -2,7 +2,8 @@
 title: "Hong Kong is a city I can't fully explain: the density, the food, the mountains in the middle of it"
 description: "Four days in Hong Kong that felt like a week (it's that dense with experience), the Peak at dawn, the restaurants in Sham Shui Po, and the hiking trails that shouldn't exist this close to skyscrapers. An unusual city."
 pubDate: 2026-03-27
-heroImage: "/images/mika-hong-kong.jpg"
+heroImage: "/images/hong-kong-travel-guide.webp"
+heroImageAlt: "Hong Kong travel guide"
 author: "Mika Soren"
 category: "hong-kong"
 ---

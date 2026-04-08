@@ -2,7 +2,8 @@
 title: "South Africa in a rental car: Cape Town, the Garden Route, and the Winelands I stayed too long in"
 description: "Cape Town for ten days (I ran out of things to do around day six and started repeating my favourites), a drive along the Garden Route to Tsitsikamma, and five days in Stellenbosch that accidentally became eight. South Africa is better by car."
 pubDate: 2026-03-27
-heroImage: "/images/mika-south-africa.jpg"
+heroImage: "/images/south-africa-travel-guide.webp"
+heroImageAlt: "South Africa travel guide"
 author: "Mika Soren"
 category: "south-africa"
 ---

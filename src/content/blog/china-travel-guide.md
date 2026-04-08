@@ -2,7 +2,8 @@
 title: "China requires more preparation than most places and delivers more than most places: Beijing, Xi'an, and the thing about the internet"
 description: "Beijing for a week (the Forbidden City, the hutongs, the Great Wall in a snow flurry), Xi'an for three days, and the practical reality of traveling in China as a foreigner in 2023. It's complicated and worth it."
 pubDate: 2026-03-27
-heroImage: "/images/mika-china.jpg"
+heroImage: "/images/china-travel-guide.webp"
+heroImageAlt: "China travel guide"
 author: "Mika Soren"
 category: "china"
 ---

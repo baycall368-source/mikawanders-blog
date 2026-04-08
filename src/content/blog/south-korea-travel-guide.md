@@ -2,7 +2,8 @@
 title: "South Korea at full speed: Seoul, Busan, and the train between them"
 description: "Seoul for two weeks, Busan for five days, a temple stay in the mountains, and the fish market at 5am. Korea moves fast. Keep up."
 pubDate: 2026-03-27
-heroImage: "/images/mika-south-korea.jpg"
+heroImage: "/images/south-korea-travel-guide.webp"
+heroImageAlt: "South Korea travel guide"
 author: "Mika Soren"
 category: "south-korea"
 ---

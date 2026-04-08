@@ -2,7 +2,8 @@
 title: "Poland is the country I didn't know I needed: Kraków, Warsaw, and the days that got heavy"
 description: "A week in Kraków (the most underrated city in Central Europe), two days in Warsaw (more complex than a day trip allows), and the visit to Auschwitz-Birkenau that I can't write about easily. Poland asks things of you."
 pubDate: 2026-03-27
-heroImage: "/images/mika-poland.jpg"
+heroImage: "/images/poland-travel-guide.webp"
+heroImageAlt: "Poland travel guide"
 author: "Mika Soren"
 category: "poland"
 ---

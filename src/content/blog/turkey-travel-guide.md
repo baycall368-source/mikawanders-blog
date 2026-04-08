@@ -2,7 +2,8 @@
 title: "Turkey made me feel like an idiot for waiting so long: Istanbul, Cappadocia, and the Aegean coast"
 description: "Istanbul for ten days, Cappadocia at dawn, and a week driving the Aegean coast from Bodrum to Ölüdeniz. The country that surprised me most in all of Europe and Asia."
 pubDate: 2026-03-27
-heroImage: "/images/mika-turkey.jpg"
+heroImage: "/images/turkey-travel-guide.webp"
+heroImageAlt: "Turkey travel guide"
 author: "Mika Soren"
 category: "turkey"
 ---

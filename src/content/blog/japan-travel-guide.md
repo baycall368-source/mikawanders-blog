@@ -2,7 +2,8 @@
 title: "Three weeks in Japan: Tokyo, Kyoto, Osaka, and the food that ruined me for everywhere else"
 description: "I went to Japan for three weeks and came back unable to eat mediocre food anywhere. A guide to the places, the meals, and the things nobody warned me about."
 pubDate: 2026-03-27
-heroImage: "/images/best-esim-for-japan-fushimi-inari.webp"
+heroImage: "/images/japan-travel-guide.webp"
+heroImageAlt: "Japan travel guide"
 author: "Mika Soren"
 category: "japan"
 ---

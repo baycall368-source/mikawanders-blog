@@ -2,7 +2,8 @@
 title: "New Zealand in a campervan: the South Island, the Milford Sound road, and why I'm not objective about this country"
 description: "Two weeks in the South Island in a campervan that smelled like previous occupants. The Milford Sound drive, the Queenstown question, and the thing about New Zealand light that I can't stop trying to describe."
 pubDate: 2026-03-27
-heroImage: "/images/mika-new-zealand.jpg"
+heroImage: "/images/new-zealand-travel-guide.webp"
+heroImageAlt: "New Zealand travel guide"
 author: "Mika Soren"
 category: "new-zealand"
 ---

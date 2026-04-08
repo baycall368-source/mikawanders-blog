@@ -3,6 +3,7 @@ title: "The road trip packing list: what I wish I'd had on the side of a Portugu
 description: "The road trip packing list that goes beyond the obvious. car kit essentials, what changes for international vs domestic trips, how to handle data and navigation in different countries, and the stuff you won't think to pack until you're stranded at 10pm."
 pubDate: 2026-04-01
 heroImage: "/images/road-trip-packing-list.webp"
+heroImageAlt: "Road trip packing list"
 author: "Mika Soren"
 ---
 

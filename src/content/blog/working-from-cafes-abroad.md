@@ -3,6 +3,7 @@ title: "Working from cafes abroad: the honest guide (wifi speeds, power outlets,
 description: "Working from cafes abroad is a core part of the digital nomad lifestyle. Here's how to find the right ones, manage wifi reliability, handle the etiquette, and actually get work done."
 pubDate: 2026-04-01
 heroImage: "/images/working-from-cafes-abroad.webp"
+heroImageAlt: "Working from cafes abroad"
 author: "Mika Soren"
 ---
 

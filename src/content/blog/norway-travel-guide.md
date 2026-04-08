@@ -2,7 +2,8 @@
 title: "Norway is expensive and worth every krone: Bergen, the fjords, and the Lofoten Islands by road"
 description: "Bergen as a base for the fjords, a ferry through Sognefjord, and a week driving the Lofoten Islands archipelago in the Arctic. Norway costs what it costs. Plan accordingly."
 pubDate: 2026-03-27
-heroImage: "/images/mika-norway.jpg"
+heroImage: "/images/norway-travel-guide.webp"
+heroImageAlt: "Norway travel guide"
 author: "Mika Soren"
 category: "norway"
 ---

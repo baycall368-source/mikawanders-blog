@@ -3,6 +3,7 @@ title: "Tips for flying with anxiety: from someone who gripped the armrest for e
 description: "Tips for flying with anxiety that actually help. What turbulence physically is, why the fear of flying is so common, and the combination of practical and psychological strategies that made long-haul flying manageable for me."
 pubDate: 2026-04-01
 heroImage: "/images/tips-for-flying-with-anxiety.webp"
+heroImageAlt: "Tips for flying with anxiety"
 author: "Mika Soren"
 ---
 

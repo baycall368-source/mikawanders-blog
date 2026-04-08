@@ -3,6 +3,7 @@ title: "First time flying tips: everything I wish someone had told me before I g
 description: "First time flying tips that cover everything: check-in, security, boarding, what happens on the plane, arrivals, and the customs process. Written for people who haven't done this before and want to actually know what's coming."
 pubDate: 2026-04-01
 heroImage: "/images/first-time-flying-tips.webp"
+heroImageAlt: "First time flying tips"
 author: "Mika Soren"
 ---
 

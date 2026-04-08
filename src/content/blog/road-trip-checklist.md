@@ -3,6 +3,7 @@ title: "The road trip checklist: everything you actually need (and the stuff you
 description: "A road trip checklist built from thousands of kilometres of actual driving. Documents, emergency kit, snacks, entertainment, and the things nobody thinks to pack until they need them."
 pubDate: 2026-04-01
 heroImage: "/images/road-trip-checklist.webp"
+heroImageAlt: "Road trip checklist"
 author: "Mika Soren"
 ---
 

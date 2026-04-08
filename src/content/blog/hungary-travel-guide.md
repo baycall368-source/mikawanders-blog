@@ -2,7 +2,8 @@
 title: "Budapest is one of the most underrated cities in Europe and I don't understand why: the baths, the ruin bars, and the Danube at night"
 description: "A week in Budapest that I planned as a short stop and extended twice. The thermal bath culture, the ruin bars of the Jewish Quarter, and the city from the Buda hills at sunset. Budapest keeps giving."
 pubDate: 2026-03-27
-heroImage: "/images/mika-hungary.jpg"
+heroImage: "/images/hungary-travel-guide.webp"
+heroImageAlt: "Hungary travel guide"
 author: "Mika Soren"
 category: "hungary"
 ---

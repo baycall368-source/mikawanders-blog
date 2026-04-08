@@ -2,7 +2,8 @@
 title: "Italy at the right pace: Rome, Naples, and a week in Sicily I can't stop recommending"
 description: "Rome three times, Naples for the pizza (and then more pizza), and a slow drive through Sicily that ruined everywhere else. What I actually learned about eating and moving through Italy."
 pubDate: 2026-03-27
-heroImage: "/images/mika-italy.jpg"
+heroImage: "/images/italy-travel-guide.webp"
+heroImageAlt: "Italy travel guide"
 author: "Mika Soren"
 category: "italy"
 ---

@@ -2,7 +2,8 @@
 title: "The UK keeps confusing me in a way I've come to enjoy: London, Edinburgh, and the bits between"
 description: "London twice, Edinburgh once (not enough), a week in the Cotswolds, and a train journey through the Scottish Highlands that I think about more than I should. What I actually know about traveling the UK."
 pubDate: 2026-03-27
-heroImage: "/images/mika-uk.jpg"
+heroImage: "/images/uk-travel-guide.webp"
+heroImageAlt: "UK travel guide"
 author: "Mika Soren"
 category: "united-kingdom"
 ---

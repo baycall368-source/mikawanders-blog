@@ -2,7 +2,8 @@
 title: "Brazil is several countries at once: Rio, Salvador, and the Amazon I almost didn't do"
 description: "Two weeks in Rio (not enough), four days in Salvador that became eight, and a river journey into the Amazon that I was talked into and will recommend forever. Brazil is very large and very specific."
 pubDate: 2026-03-27
-heroImage: "/images/mika-brazil.jpg"
+heroImage: "/images/brazil-travel-guide.webp"
+heroImageAlt: "Brazil travel guide"
 author: "Mika Soren"
 category: "brazil"
 ---

@@ -2,7 +2,8 @@
 title: "I climbed to 4,130 metres in Nepal and cried over a plate of dal bhat"
 description: "Three weeks in Nepal: Kathmandu's beautiful chaos, Pokhara's impossible lake views, the Annapurna trek that nearly broke me, and more momos than any reasonable person should consume."
 pubDate: 2026-03-28
-heroImage: "/images/mika-nepal.jpg"
+heroImage: "/images/nepal-travel-guide.webp"
+heroImageAlt: "Nepal travel guide"
 author: "Mika Soren"
 category: "nepal"
 ---

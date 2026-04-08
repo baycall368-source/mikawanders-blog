@@ -3,6 +3,7 @@ title: "Is it safe to travel? An honest answer from someone who does it constant
 description: "Is it safe to travel internationally? A realistic, non-alarmist look at actual travel risk, how to assess it properly, and the practical steps that genuinely make a difference."
 pubDate: 2026-04-01
 heroImage: "/images/travel-safety-tips.webp"
+heroImageAlt: "Travel safety tips"
 author: "Mika Soren"
 ---
 

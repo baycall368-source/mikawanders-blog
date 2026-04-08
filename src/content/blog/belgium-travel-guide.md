@@ -2,7 +2,8 @@
 title: "Belgium is small and extremely good at several things: Brussels, Bruges, and the beer situation"
 description: "Brussels for five days (the EU city that's also an actual city), Bruges for a weekend (genuinely as beautiful as advertised, less crowded in winter), and the beer. Primarily the beer."
 pubDate: 2026-03-27
-heroImage: "/images/mika-belgium.jpg"
+heroImage: "/images/belgium-travel-guide.webp"
+heroImageAlt: "Belgium travel guide"
 author: "Mika Soren"
 category: "belgium"
 ---

@@ -3,6 +3,7 @@ title: "Tips for traveling internationally: the practical list I wish I'd had be
 description: "Tips for traveling internationally that cover documents, money, connectivity, cultural preparation, and the things that only matter when you're already outside your home country and can't Google them."
 pubDate: 2026-04-01
 heroImage: "/images/tips-for-traveling-internationally.webp"
+heroImageAlt: "Tips for traveling internationally"
 author: "Mika Soren"
 ---
 

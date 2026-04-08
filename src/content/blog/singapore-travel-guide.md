@@ -2,7 +2,8 @@
 title: "Singapore as a base: why I keep coming back to the city-state that shouldn't work as well as it does"
 description: "Three separate stays in Singapore across two years. The hawker centres, the unexpected green, and what it actually feels like to use the city as a hub for Southeast Asia."
 pubDate: 2026-03-27
-heroImage: "/images/mika-singapore.jpg"
+heroImage: "/images/singapore-travel-guide.webp"
+heroImageAlt: "Singapore travel guide"
 author: "Mika Soren"
 category: "singapore"
 ---

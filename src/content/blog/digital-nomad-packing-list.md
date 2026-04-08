@@ -3,6 +3,7 @@ title: "The digital nomad packing list: what to bring when your bag is your home
 description: "A digital nomad packing list built from 5+ years of full-time travel. The tech setup, the clothes system, the things you actually need, and the things to leave behind."
 pubDate: 2026-04-01
 heroImage: "/images/digital-nomad-packing-list.webp"
+heroImageAlt: "Digital nomad packing list"
 author: "Mika Soren"
 ---
 

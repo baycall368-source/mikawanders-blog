@@ -2,7 +2,8 @@
 title: "India takes everything you think you know about travel and rearranges it: Rajasthan, Varanasi, and Kerala"
 description: "Three weeks in Rajasthan, three days in Varanasi (the most intense place I've been on earth), and a slow week in Kerala doing absolutely nothing well. India at the right pace."
 pubDate: 2026-03-27
-heroImage: "/images/mika-india.jpg"
+heroImage: "/images/india-travel-guide.webp"
+heroImageAlt: "India travel guide"
 author: "Mika Soren"
 category: "india"
 ---

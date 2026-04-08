@@ -2,7 +2,8 @@
 title: "Dubai and Abu Dhabi: I went with low expectations and that was the right preparation"
 description: "Four days in Dubai (including the building I didn't expect to be moved by), two days in Abu Dhabi, and the specific quality of a place that has decided to be something completely different from what was there before."
 pubDate: 2026-03-27
-heroImage: "/images/mika-uae.jpg"
+heroImage: "/images/uae-travel-guide.webp"
+heroImageAlt: "UAE travel guide"
 author: "Mika Soren"
 category: "uae"
 ---

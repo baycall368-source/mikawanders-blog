@@ -2,7 +2,8 @@
 title: "Colombia surprised me and then kept surprising me: Medellín, Cartagena, and the coffee region"
 description: "Three weeks in Colombia: Medellín's transformation, Cartagena's heat and colour, and the Zona Cafetera where the best coffee I've had came from a farm I almost drove past."
 pubDate: 2026-03-27
-heroImage: "/images/mika-colombia.jpg"
+heroImage: "/images/colombia-travel-guide.webp"
+heroImageAlt: "Colombia travel guide"
 author: "Mika Soren"
 category: "colombia"
 ---

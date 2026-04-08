@@ -3,6 +3,7 @@ title: "The travel abroad packing list: what to actually bring (from someone who
 description: "A practical travel abroad packing list built from years of international trips. What survives every climate, what to leave home, and the things that will save you in ways you didn't expect."
 pubDate: 2026-04-01
 heroImage: "/images/packing-list-for-traveling-abroad.webp"
+heroImageAlt: "Packing list for traveling abroad"
 author: "Mika Soren"
 ---
 

@@ -2,7 +2,8 @@
 title: "Romania is the country that surprised me most in Europe: Bucharest, Transylvania, and a bus through the Carpathians I didn't plan to take"
 description: "Bucharest for four days (far better than its reputation), a week through Transylvania by bus and train, and the discovery that Romania is one of the last places in Europe that still feels genuinely unfinished and alive."
 pubDate: 2026-03-27
-heroImage: "/images/mika-romania.jpg"
+heroImage: "/images/romania-travel-guide.webp"
+heroImageAlt: "Romania travel guide"
 author: "Mika Soren"
 category: "romania"
 ---

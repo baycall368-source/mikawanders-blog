@@ -2,7 +2,8 @@
 title: "Going home to Australia as a traveler: what I notice now that I didn't before"
 description: "I grew up in Melbourne, left in 2019, and go back once a year. Returning to Australia as a full-time traveler is a strange experience that's changed how I see both the country and everywhere else."
 pubDate: 2026-03-27
-heroImage: "/images/australia-travel-guide.jpg"
+heroImage: "/images/australia-travel-guide.webp"
+heroImageAlt: "Australia travel guide"
 author: "Mika Soren"
 category: "australia"
 ---

@@ -3,6 +3,7 @@ title: "The ultimate packing list: what seven years of overpacking finally taugh
 description: "A real packing list built through embarrassing trial and error. with the why behind every item, what changes depending on where you're going, and the things nobody thinks to mention until it's too late."
 pubDate: 2026-04-01
 heroImage: "/images/ultimate-packing-list.webp"
+heroImageAlt: "Ultimate packing list"
 author: "Mika Soren"
 ---
 

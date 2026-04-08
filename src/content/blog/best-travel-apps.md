@@ -3,6 +3,7 @@ title: "The best travel apps: the ones actually on my phone after 6 years on the
 description: "The best travel apps that are genuinely worth having. Navigation, translation, flights, transport, banking, safety, and communication. With specific notes on what works where and what's overhyped."
 pubDate: 2026-04-01
 heroImage: "/images/best-travel-apps.webp"
+heroImageAlt: "Best travel apps"
 author: "Mika Soren"
 ---
 

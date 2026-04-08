@@ -3,6 +3,7 @@ title: "One bag travel: how I went from 23kg check-ins to a single 10L backpack 
 description: "One bag travel: the philosophy, the system, the packing list, and the specific gear that makes it work. How to travel indefinitely out of carry-on luggage only."
 pubDate: 2026-04-01
 heroImage: "/images/one-bag-travel.webp"
+heroImageAlt: "One bag travel"
 author: "Mika Soren"
 ---
 

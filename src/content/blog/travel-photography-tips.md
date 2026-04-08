@@ -3,6 +3,7 @@ title: "Travel photography tips: how to take photos that actually look like what
 description: "Travel photography tips from someone who spent years taking bad photos before figuring out why. Light, composition, gear, phone shooting, and the mindset shift that makes the biggest difference."
 pubDate: 2026-04-01
 heroImage: "/images/travel-photography-tips.webp"
+heroImageAlt: "Travel photography tips"
 author: "Mika Soren"
 ---
 
