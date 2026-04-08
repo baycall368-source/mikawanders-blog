@@ -3,7 +3,7 @@ title: "I watched the sun rise over Angkor Wat and completely forgot to take a p
 description: "Siem Reap's temple complex, Phnom Penh's difficult history, Kampot's easy pace. Cambodia is a bigger country than the ruins suggest, and a more complicated one."
 pubDate: 2026-03-30
 heroImage: "/images/cambodia-travel-guide.webp"
-heroImageAlt: "Cambodia travel guide — Mika at Angkor Wat at sunrise"
+heroImageAlt: "Cambodia travel guide — Angkor Wat at sunrise reflected in the moat"
 author: "Mika Soren"
 ---
 

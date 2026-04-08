@@ -3,7 +3,7 @@ title: "Taiwan quietly became my favourite country in Asia and I'm here to make 
 description: "Taipei night markets, Jiufen in the rain, beef noodle soup arguments, Taroko Gorge, and why Taiwan is the trip you don't see coming."
 pubDate: 2026-03-29
 heroImage: "/images/taiwan-travel-guide.webp"
-heroImageAlt: "Taiwan travel guide — Mika in Jiufen lantern streets"
+heroImageAlt: "Taiwan travel guide — Jiufen old street steps in the mist"
 author: "Mika Soren"
 ---
 

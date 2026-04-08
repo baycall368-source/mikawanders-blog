@@ -99,11 +99,12 @@ H1: Best eSIM for [Country]: [Clickbait] ([Year])
 
 | Skill | When to Use | How |
 |-------|------------|-----|
-| `mika-photo` | Every comparison post — hero image | `python skills/mika-photo/scripts/generate_mika_photo.py` |
+| `travel-blog-scenery` | Blog/travel guide hero images — scenery only, no character | `skills/travel-blog-scenery-SKILL.md` |
+| `mika-photo` | Comparison posts only — hero image with Mika | `python skills/mika-photo/scripts/generate_mika_photo.py` |
 | `humanizer` | Every post before publishing | `/humanizer` skill |
 | `neuronwriter-seo` | Comparison posts only — after first draft | Via Chrome browser tab |
 | `esim-pricing-lookup` | When pricing data is missing/outdated | Skill tool |
-| `gemini-imagegen` | One-off image needs (not Mika photos) | Via skill |
+| `gemini-imagegen` | One-off image needs | Via skill |
 
 ---
 
@@ -123,7 +124,7 @@ H1: Best eSIM for [Country]: [Clickbait] ([Year])
 |-------|------|-------|
 | Mika avatar | `public/images/mika-avatar.jpg` | Used in header, footer, meta bar |
 | Comparison hero images | `public/images/best-esim-for-[country]-[landmark].jpg` | Pexels stock photos |
-| Blog hero images | `public/images/mika-[country].jpg` | Generated with mika-photo skill |
+| Blog hero images | `public/images/[country-slug]-travel-guide.webp` | Generated with travel-blog-scenery skill (no character) |
 
 ### Hero Image Rules
 
