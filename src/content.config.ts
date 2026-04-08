@@ -35,6 +35,7 @@ const blog = defineCollection({
     silo: z.string().optional(),
     relatedComparisons: z.array(z.string()).optional(),
     heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
     author: z.string().default('Mika Soren'),
   }),
 });
