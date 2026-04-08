@@ -7,11 +7,12 @@ interface Props {
   pubDate: Date;
   updatedDate?: Date;
   heroImage?: string;
+  heroImageAlt?: string;
   author?: string;
   category?: string;
 }
 
-const { title, description, pubDate, updatedDate, heroImage, author = 'Mika Soren', category } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, heroImageAlt, author = 'Mika Soren', category } = Astro.props;
 
 const formattedPub = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 const formattedUpdated = updatedDate?.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -312,7 +313,7 @@ const regionLabel = category ? (regionMap[category] ?? 'Travel') : 'Travel';
 
     <!-- Hero image (if present) -->
     {heroImage && (
-      <img src={heroImage} alt={title} class="hero-image" loading="eager" />
+      <img src={heroImage} alt={heroImageAlt || title} class="hero-image" loading="eager" />
     )}
 
     <!-- Content -->
