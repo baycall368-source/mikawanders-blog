@@ -49,19 +49,20 @@ The script is text-prompt only — no image input supported. Face consistency co
 Every prompt MUST include this exact character anchor block. Do not shorten or rephrase it:
 
 ```
-The subject is a young woman in her early-to-mid thirties with a specific consistent appearance:
-medium-length wavy hair, warm honey-blonde with natural highlights, loosely worn (down, softly tucked,
-or half-up depending on scene), fair complexion with light freckles across the nose and cheeks,
-light eyes, strong defined features with high cheekbones and a straight nose, calm neutral expression,
-slim natural build, approximately 165cm tall.
-She wears small gold hoop earrings and layered delicate gold necklaces as her signature jewellery.
-Her personal style is quiet luxury — minimal, understated, high-quality basics.
+The subject is a woman in her mid-to-late thirties with a specific consistent appearance:
+medium-length naturally curly hair with full, voluminous waves, warm honey-blonde with sun-lightened
+natural highlights, loosely worn (down, softly tucked, or half-up depending on scene),
+fair complexion with prominent scattered freckles across the nose and cheeks,
+pale blue-grey eyes, strong defined features with high cheekbones and a straight nose,
+calm neutral expression, slim natural build, approximately 165cm tall.
+She wears small fine gold earrings and a delicate gold necklace as her signature jewellery.
+Her personal style is quiet and natural — minimal, understated, high-quality linen and cotton basics.
 She always looks like the same person across all photos.
 She is NEVER looking at the camera — always looking away, at the view, at something in the scene, or caught mid-movement.
 ```
 
 **What CAN change:** outfit, hairstyle styling (up/down/loose), outerwear for climate, additional accessories
-**What MUST stay the same:** blonde hair colour, fair complexion, blue-grey eyes, facial features, build, height, gold hoop earrings
+**What MUST stay the same:** curly honey-blonde hair, fair freckled complexion, pale blue-grey eyes, facial features, build, height, gold earrings
 
 ## Workflow
 

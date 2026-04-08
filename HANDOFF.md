@@ -1,6 +1,51 @@
 # Session Handoff — mikawanders.blog
 
-**Date:** 2026-04-01
+**Date:** 2026-04-08
+**Session focus:** Character skill update, keyword gap research, travel guide audit
+
+---
+
+## What Was Done This Session
+
+### 1. Mika Character Skill — Updated
+
+`skills/travel-blog-character-SKILL.md` updated with more accurate character anchor description based on the reference photo in `Mika Persona/224a5b37405bba94d7906e978e649f56_1775521296_3uk9t9el.jpg`.
+
+Key changes to the character anchor block:
+- Age: "early-to-mid thirties" → "mid-to-late thirties"
+- Hair: "wavy" → "naturally curly with full, voluminous waves"
+- Eyes: "light eyes" → "pale blue-grey eyes"
+- Freckles: "light freckles" → "prominent scattered freckles"
+- Jewellery: "gold hoop earrings and layered delicate gold necklaces" → "small fine gold earrings and a delicate gold necklace"
+- Style: added "linen and cotton basics" to the fabric description
+- Must-stay-same list updated to match
+
+### 2. Keyword Gap Spreadsheet — Created
+
+`research/mikawanders-keyword-gaps.xlsx` — DataForSEO-sourced keyword gap analysis across 4 tabs:
+
+| Tab | Contents |
+|-----|----------|
+| 1. eSIM Content Gaps | 24 eSIM informational/how-to keywords not yet covered (e.g. how does esim work 4,400/mo, esim compatible phones 3,600/mo, esim for iphone 2,900/mo) |
+| 2. Provider Review Gaps | 7 competitor review/comparison keywords (airalo review 2,900/mo LOW comp, airalo vs holafly 590/mo LOW comp) |
+| 3. Travel Guide Gaps | 5 expansion destinations with no travel guide OR eSIM comparison page (Bali 6,600/mo is the standout) |
+| 4. PAA Questions | 31 People Also Ask questions from live SERPs — none currently answered on the blog |
+
+### 3. Travel Guide Audit — 15 Posts Confirmed Existing
+
+Discovered that 15 travel guide blog posts already exist from a previous unrecorded session. All are complete with Mika-voice content, mika-*.jpg hero images, eSIM cross-links, and "More from the region" internal links:
+
+australia, argentina, brazil, canada, chile, colombia, kenya, mexico, morocco, new-zealand, peru, saudi-arabia, south-africa, tanzania, turkey
+
+These were incorrectly added to the keyword gap spreadsheet as "missing" — corrected by removing Part A from Tab 3.
+
+---
+
+**Previous session notes below.**
+
+---
+
+## What Was Done (2026-04-01)
 **Session focus:** Phase 6 travel tips — ALL 35 articles complete + all hero images added
 
 ---
