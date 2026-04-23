@@ -6,26 +6,30 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="About Mika | mikawanders.blog"
   description="I told my boss, my landlord, and my mother I'd be gone for three months. That was five years ago."
 >
-  <article style="max-width: 38rem; margin: 0 auto; padding: 2.5rem 1.5rem 5rem;">
+  <article style="max-width: 52rem; margin: 0 auto; padding: 2.5rem 1.5rem 5rem;">
 
-    <div style="display: flex; align-items: center; gap: 1.25rem; margin-bottom: 2.5rem;">
-      <img src="/images/mika-avatar.webp" alt="Mika Soren" style="width: 5rem; height: 5rem; border-radius: 50%; object-fit: cover; border: 2px solid #e8e4df; flex-shrink: 0;" />
+    <div class="about-hero" style="display: grid; grid-template-columns: 1fr 18rem; gap: 3rem; align-items: start; margin-bottom: 3rem;">
       <div>
-        <h1 style="font-size: 1.5rem; font-weight: 700; color: #1c1917; margin: 0 0 0.25rem; letter-spacing: -0.02em;">Mika Soren</h1>
-        <p style="font-size: 0.875rem; color: #78716c; margin: 0;">Full-time traveler · Melbourne → everywhere · 47 countries</p>
+        <p style="font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #C47A5A; margin: 0 0 0.75rem;">About</p>
+        <h1 style="font-size: clamp(2rem, 4vw, 2.75rem); font-weight: 700; color: #1c1917; margin: 0 0 0.5rem; letter-spacing: -0.02em; line-height: 1.2;">Mika Soren</h1>
+        <p style="font-size: 0.875rem; color: #78716c; margin: 0 0 1.5rem;">Full-time traveler · Melbourne → everywhere · 47 countries</p>
+        <p style="font-size: 1rem; color: #6B6259; line-height: 1.8; margin: 0;">
+          In 2019 I told my boss, my landlord, and my mother I'd be gone for three months. Five years later I'm writing this from a café in Lisbon. (The coffee costs €1.20. I've had four. I have no plans to leave.)
+        </p>
+      </div>
+      <div style="border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 24px rgba(28,20,16,0.10);">
+        <img src="/images/mika-about.webp" alt="Mika Soren at a café" style="width: 100%; display: block; object-fit: cover;" />
       </div>
     </div>
 
+    <style>
+      @media (max-width: 640px) {
+        .about-hero { grid-template-columns: 1fr !important; }
+        .about-hero > div:last-child { order: -1; }
+      }
+    </style>
+
     <div class="prose">
-
-      <p>
-        In 2019 I told my boss, my landlord, and my mother I'd be gone for three months.
-      </p>
-
-      <p>
-        That was five years ago. I'm currently writing this from a cafe in Lisbon that's so photogenic
-        it's embarrassing. (The coffee costs €1.20. I've had four. I have absolutely no plans to leave.)
-      </p>
 
       <p>
         I'm Mika. I grew up in Melbourne to Finnish parents who never fully stopped missing Finland,
