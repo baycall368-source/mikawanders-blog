@@ -1,6 +1,7 @@
 ---
 title: "The toiletries packing list I finally stopped ignoring (and why 100ml changed everything)"
 description: "What to actually pack in your travel toiletries bag, what to skip, what you can't buy abroad, what you definitely can, and the country-specific stuff nobody mentions until you're standing in a pharmacy in Japan unable to find deodorant."
+pubDate: 2026-03-27
 heroImage: "/images/toiletries-packing-list.webp"
 heroImageAlt: "Toiletries packing list"
 author: "Mika Soren"

@@ -1,6 +1,7 @@
 ---
 title: "Thailand keeps surprising me: Chiang Mai, Bangkok, and the north nobody told me about"
 description: "A month in Chiang Mai working remotely, a week in Bangkok, and the hill towns above Pai that I'd still be in if my visa allowed. What I know about Thailand now that I didn't before."
+pubDate: 2026-03-27
 heroImage: "/images/thailand-travel-guide.webp"
 heroImageAlt: "Thailand travel guide"
 author: "Mika Soren"

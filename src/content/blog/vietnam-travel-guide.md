@@ -1,6 +1,7 @@
 ---
 title: "Vietnam will ruin you for other countries: a guide for people who don't know what they're about to walk into"
 description: "Hanoi's chaos, Hoi An's lanterns, a bowl of pho at 6am in the rain, Ha Long Bay from a junk boat. Two weeks in Vietnam and I've been planning a return trip since the bus back to the airport."
+pubDate: 2026-03-27
 heroImage: "/images/vietnam-travel-guide.webp"
 heroImageAlt: "Vietnam travel guide — Hoi An lantern street at dusk"
 author: "Mika Soren"

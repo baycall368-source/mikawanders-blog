@@ -1,6 +1,7 @@
 ---
 title: "Prague is real and overrun: how to find the city behind the tourist trail"
 description: "Ten days in Prague including five in neighbourhoods most visitors don't reach, a day trip to Český Krumlov, and the specific experience of a city that rewards patience. Czech Republic beyond the stag party district."
+pubDate: 2026-03-27
 heroImage: "/images/czech-republic-travel-guide.webp"
 heroImageAlt: "Czech Republic travel guide"
 author: "Mika Soren"

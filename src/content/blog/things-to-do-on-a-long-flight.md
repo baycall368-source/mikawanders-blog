@@ -1,6 +1,7 @@
 ---
 title: "Things to do on a long flight: a realistic list for people who can't sleep on planes"
 description: "Things to do on a long flight that will actually get you through it. The entertainment, the productivity experiments, the weird coping mechanisms, and the things that make a 14-hour flight feel slightly less like purgatory."
+pubDate: 2026-03-27
 heroImage: "/images/things-to-do-on-a-long-flight.webp"
 heroImageAlt: "Things to do on a long flight"
 author: "Mika Soren"

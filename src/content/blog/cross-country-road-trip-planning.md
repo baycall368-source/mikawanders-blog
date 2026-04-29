@@ -1,6 +1,7 @@
 ---
 title: "How to plan a cross country road trip: the approach that actually works"
 description: "Cross country road trip planning from someone who's driven across multiple continents. Route building, budgeting, timing, what to book ahead, and what to leave open."
+pubDate: 2026-03-27
 heroImage: "/images/cross-country-road-trip-planning.webp"
 heroImageAlt: "Cross country road trip planning"
 author: "Mika Soren"

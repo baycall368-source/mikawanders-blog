@@ -1,6 +1,7 @@
 ---
 title: "How to use your phone abroad without getting a bill that makes you rethink your life choices"
 description: "How to use your phone abroad without roaming charges destroying your bank account. The real difference between roaming, local SIMs, and eSIMs, plus what to set up before you land and what changes by country."
+pubDate: 2026-03-27
 heroImage: "/images/how-to-use-your-phone-abroad.webp"
 heroImageAlt: "How to use your phone abroad"
 author: "Mika Soren"

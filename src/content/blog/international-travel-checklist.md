@@ -1,6 +1,7 @@
 ---
 title: "The international travel checklist: what to do 6 weeks out, 2 weeks out, the day before, and at the airport"
 description: "The international travel checklist organized by timeline. Visas, vaccinations, insurance, packing, connectivity, customs rules. Everything you need to do and when to do it so nothing falls through the gap."
+pubDate: 2026-03-27
 heroImage: "/images/international-travel-checklist.webp"
 heroImageAlt: "International travel checklist"
 author: "Mika Soren"

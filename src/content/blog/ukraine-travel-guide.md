@@ -1,6 +1,7 @@
 ---
 title: "I haven't been to Ukraine yet and I think about it constantly: Kyiv, Lviv, Odesa, and why it's on my list"
 description: "A country I haven't visited but can't stop researching. What friends have told me about Kyiv's golden domes, Lviv's coffee obsession, and Odesa's particular brand of humour."
+pubDate: 2026-03-27
 heroImage: "/images/ukraine-travel-guide.webp"
 heroImageAlt: "Ukraine travel guide"
 author: "Mika Soren"

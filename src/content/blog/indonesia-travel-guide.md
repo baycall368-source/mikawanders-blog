@@ -1,6 +1,7 @@
 ---
 title: "I rented a scooter in Bali and aged ten years: Indonesia beyond the Instagram version"
 description: "A month split between Ubud, Canggu, Yogyakarta, and the Gili Islands. The rice terraces were real. The traffic was realer. Here's what I actually learned."
+pubDate: 2026-03-27
 heroImage: "/images/indonesia-travel-guide.webp"
 heroImageAlt: "Indonesia travel guide"
 author: "Mika Soren"

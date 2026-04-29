@@ -1,6 +1,7 @@
 ---
 title: "Bali is a cliche and I'm obsessed with it anyway: what no one tells you before you go"
 description: "Three trips to Bali and counting. Canggu, Uluwatu, the rice terraces, the temple traffic, the best nasi campur I've ever eaten. Here's the honest version."
+pubDate: 2026-03-27
 heroImage: "/images/bali-travel-guide.webp"
 heroImageAlt: "Bali travel guide — Tegallalang rice terraces at sunrise"
 author: "Mika Soren"

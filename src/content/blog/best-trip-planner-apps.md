@@ -1,6 +1,7 @@
 ---
 title: "The best trip planner apps: and the point where planning becomes procrastination"
 description: "The best trip planner apps for building itineraries, organizing bookings, and mapping out routes. Plus the honest case for planning less than you think you need to."
+pubDate: 2026-03-27
 heroImage: "/images/best-trip-planner-apps.webp"
 heroImageAlt: "Best trip planner apps"
 author: "Mika Soren"

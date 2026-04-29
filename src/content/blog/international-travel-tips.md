@@ -1,6 +1,7 @@
 ---
 title: "Travel tips for international travel: 27 things I wish I'd known before my first trip abroad"
 description: "The best travel tips for international travel, gathered from 7 years and 40+ countries. Documents, money, health, culture, tech, and the stuff nobody puts in the guidebooks."
+pubDate: 2026-03-27
 heroImage: "/images/international-travel-tips.webp"
 heroImageAlt: "International travel tips"
 author: "Mika Soren"

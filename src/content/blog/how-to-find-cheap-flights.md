@@ -1,6 +1,7 @@
 ---
 title: "How to find cheap flights: what actually works in 2026 (from someone who lives on planes)"
 description: "How to find cheap flights using the tools and strategies that actually move the needle. Timing, flexibility, routing tricks, and the myths that will waste your time."
+pubDate: 2026-03-27
 heroImage: "/images/how-to-find-cheap-flights.webp"
 heroImageAlt: "How to find cheap flights"
 author: "Mika Soren"

@@ -1,6 +1,7 @@
 ---
 title: "What to bring on a road trip: the list I've refined over 40,000km of driving"
 description: "What to bring on a road trip, based on actual experience. Documents, safety kit, comfort items, tech, snacks, and the things that don't make any packing list but genuinely matter."
+pubDate: 2026-03-27
 heroImage: "/images/what-to-bring-on-a-road-trip.webp"
 heroImageAlt: "What to bring on a road trip"
 author: "Mika Soren"

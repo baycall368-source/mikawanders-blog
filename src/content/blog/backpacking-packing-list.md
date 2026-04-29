@@ -1,6 +1,7 @@
 ---
 title: "The backpacking packing list: from someone who packed 22 kilos first time and learned the hard way"
 description: "The backpacking packing list that actually works. with the why behind every item, what changes by region, things you won't think to pack but absolutely need, and the gear mistakes that ruin trips."
+pubDate: 2026-03-27
 heroImage: "/images/backpacking-packing-list.webp"
 heroImageAlt: "Backpacking packing list"
 author: "Mika Soren"

@@ -1,6 +1,7 @@
 ---
 title: "How to get airport lounge access: the cheapest ways in, and whether it's actually worth it"
 description: "How to get airport lounge access without a business class ticket or a Platinum card. The credit card routes, day passes, Priority Pass, and the airports where it matters most."
+pubDate: 2026-03-27
 heroImage: "/images/how-to-get-airport-lounge-access.webp"
 heroImageAlt: "How to get airport lounge access"
 author: "Mika Soren"

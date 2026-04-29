@@ -1,6 +1,7 @@
 ---
 title: "Four days in Dubai: the cynical traveller's guide to not being as cynical as you planned"
 description: "I went to Dubai fully prepared to be underwhelmed. The desert, the souks, the world's tallest building at sunset, and what's actually worth your time in a city that built itself in forty years."
+pubDate: 2026-03-27
 heroImage: "/images/dubai-travel-guide.webp"
 heroImageAlt: "Dubai travel guide — Saharan sand dunes at golden hour"
 author: "Mika Soren"

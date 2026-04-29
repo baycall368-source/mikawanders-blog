@@ -1,6 +1,7 @@
 ---
 title: "A leopard fell asleep ten metres from our jeep in the Serengeti and I forgot how to breathe"
 description: "Three weeks in Tanzania: the Serengeti safari that ruined nature documentaries forever, Ngorongoro Crater's absurd concentration of wildlife, Zanzibar's Stone Town labyrinth, and the night sky that made me feel appropriately small."
+pubDate: 2026-03-27
 heroImage: "/images/tanzania-travel-guide.webp"
 heroImageAlt: "Tanzania travel guide"
 author: "Mika Soren"
