@@ -2,7 +2,7 @@
 title: "eSIM vs Physical SIM vs International Roaming: Which One Actually Makes Sense?"
 description: "I've used all three options across 47 countries. Here's an honest comparison of eSIMs, physical SIM cards, and international roaming: costs, convenience, and when each one wins."
 pubDate: 2026-03-29
-heroImage: "/images/esim-vs-sim-passport-phone.jpg"
+heroImage: "/images/esim-vs-physical-sim.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

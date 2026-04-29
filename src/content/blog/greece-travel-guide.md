@@ -1,7 +1,6 @@
 ---
 title: "Greece beyond the postcard: Athens, the Peloponnese, and islands that aren't Santorini"
 description: "Athens for a week (not just a day trip to the Acropolis), a slow drive through the Peloponnese, and the islands nobody mentions that are better than the ones everyone goes to."
-pubDate: 2026-03-27
 heroImage: "/images/greece-travel-guide.webp"
 heroImageAlt: "Greece travel guide"
 author: "Mika Soren"

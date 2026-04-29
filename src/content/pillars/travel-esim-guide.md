@@ -2,7 +2,7 @@
 title: "The Complete Guide to Travel eSIMs: Everything I Learned After 47 Countries"
 description: "I've used eSIMs across six continents and 47 countries since 2019. Here's everything I know about how they work, when they're worth it, and how to avoid the mistakes I made."
 pubDate: 2026-03-29
-heroImage: "/images/travel-esim-guide-airport.jpg"
+heroImage: "/images/travel-esim-guide.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

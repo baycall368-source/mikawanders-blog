@@ -2,7 +2,7 @@
 title: "How to Set Up an eSIM on iPhone and Android: The Actually Helpful Guide"
 description: "Step-by-step instructions for installing a travel eSIM on iPhone and Android, with the troubleshooting tips I've figured out after 30+ installations across 47 countries."
 pubDate: 2026-03-29
-heroImage: "/images/how-to-setup-esim-airport-phone.jpg"
+heroImage: "/images/how-to-set-up-esim.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

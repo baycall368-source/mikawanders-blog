@@ -2,7 +2,7 @@
 title: "Best eSIM for Asia: What Actually Works Across 11 Countries (From Tokyo to Kathmandu)"
 description: "I've tested eSIM providers across 11 Asian countries from Japan to Nepal. Here's what works, what doesn't, and why this continent is the most varied eSIM experience you'll have."
 pubDate: 2026-03-29
-heroImage: "/images/esim-guide-asia-new.jpg"
+heroImage: "/images/esim-guide-asia.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

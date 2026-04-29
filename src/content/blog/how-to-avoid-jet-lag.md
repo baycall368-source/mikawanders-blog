@@ -1,7 +1,6 @@
 ---
 title: "How to avoid jet lag: the things that actually work (and the things that are travel placebo)"
 description: "How to avoid jet lag based on real long-haul experience. The science, the practical fixes, and the myths that will not save you from arriving in Tokyo feeling like a bag of wet laundry."
-pubDate: 2026-04-01
 heroImage: "/images/how-to-avoid-jet-lag.webp"
 heroImageAlt: "How to avoid jet lag"
 author: "Mika Soren"

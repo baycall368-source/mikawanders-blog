@@ -1,7 +1,6 @@
 ---
 title: "Solo travel tips: what 6 years of traveling alone taught me (the good, the terrifying, and the bits nobody posts)"
 description: "Solo travel tips from someone who's done it in 40+ countries. The safety stuff, the loneliness nobody admits to, how to meet people, and why solo travel is genuinely the best thing I've ever done for myself."
-pubDate: 2026-04-01
 heroImage: "/images/solo-travel-tips.webp"
 heroImageAlt: "Solo travel tips"
 author: "Mika Soren"

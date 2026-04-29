@@ -2,7 +2,7 @@
 title: "Best eSIM for the Americas: From Manhattan to Patagonia (and Everything Between)"
 description: "I've tested eSIM providers across 8 countries in North and South America. Here's what works in the US and Canada, what to expect in Latin America, and which providers I actually trust."
 pubDate: 2026-03-29
-heroImage: "/images/esim-guide-americas.jpg"
+heroImage: "/images/esim-guide-americas.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

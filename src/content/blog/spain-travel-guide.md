@@ -1,7 +1,6 @@
 ---
 title: "Barcelona, Madrid, and a month in Andalusia: what I actually learned about Spain"
 description: "Two trips to Barcelona, one accidental week in Madrid, and thirty days working remotely from a village outside Málaga. Here's the Spain nobody puts in the brochure."
-pubDate: 2026-03-27
 heroImage: "/images/spain-travel-guide.webp"
 heroImageAlt: "Spain travel guide"
 author: "Mika Soren"

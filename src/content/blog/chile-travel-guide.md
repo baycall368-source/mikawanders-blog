@@ -1,7 +1,6 @@
 ---
 title: "Chile is longer than you think: Santiago, the Atacama, and Torres del Paine at the end of the world"
 description: "Santiago for five days (better than I expected), the Atacama Desert in the north where the night sky broke something in my brain, and the Patagonian parks at the bottom. Chile from top to bottom."
-pubDate: 2026-03-27
 heroImage: "/images/chile-travel-guide.webp"
 heroImageAlt: "Chile travel guide"
 author: "Mika Soren"

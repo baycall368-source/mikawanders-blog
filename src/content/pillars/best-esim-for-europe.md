@@ -2,7 +2,7 @@
 title: "Best eSIM for Europe: My Picks After 19 Countries and Way Too Many Espressos"
 description: "I've tested eSIM providers across 19 European countries since 2020. Here's what actually works, what doesn't, and which providers I trust for every region from Scandinavia to the Mediterranean."
 pubDate: 2026-03-29
-heroImage: "/images/esim-guide-europe.jpg"
+heroImage: "/images/esim-guide-europe.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

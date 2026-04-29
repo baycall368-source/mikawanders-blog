@@ -1,7 +1,6 @@
 ---
 title: "I got lost in Fes for three hours and it was the best part of my trip: Morocco without a plan"
 description: "Marrakech, Fes, the Sahara, and a coastal town where the wind never stops. What actually happens when you show up to Morocco with a backpack and no itinerary."
-pubDate: 2026-03-28
 heroImage: "/images/morocco-travel-guide.webp"
 heroImageAlt: "Morocco travel guide"
 author: "Mika Soren"

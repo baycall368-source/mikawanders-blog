@@ -1,7 +1,6 @@
 ---
 title: "Sweden in both seasons: Stockholm in summer and Kiruna in winter, which is genuinely a different country"
 description: "Stockholm for a week in June when the sun barely sets, Gothenburg for a few days, and a trip to the Swedish Arctic in January for the Northern Lights and the darkness that isn't actually dark. Sweden surprises."
-pubDate: 2026-03-27
 heroImage: "/images/sweden-travel-guide.webp"
 heroImageAlt: "Sweden travel guide"
 author: "Mika Soren"

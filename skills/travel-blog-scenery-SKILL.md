@@ -70,19 +70,46 @@ print('Saved:', dst)
 - Max width: **1600px** (preserve aspect ratio)
 - Quality: **85**
 
-## ⚠️ REALISM — CRITICAL
+## ⚠️ REALISM — CRITICAL (iPhone-candid aesthetic)
 
-The image must look like a real photograph taken by a human. **If it could be mistaken for AI art, it has failed.**
+The image must look like a real photograph taken by a human on their phone during a trip. **If it could be mistaken for AI art, a stock photo, or a tourism-board postcard, it has failed.**
 
-**Avoid anything that triggers AI aesthetics:**
+Reference style: `mikawanders.blog/Image/travel_blogger_italy_cafe.png`. Full spec: `skills/mika-photo/PHOTO_STYLE_REFERENCE.md`.
+
+**The target aesthetic is "iPhone snapshot sent to a friend, not posted online":**
+- Uncorrected auto-exposure — highlights blown on sunlit walls/sky, no HDR rescue
+- Mixed warm-and-cool colour cast, no white balance correction
+- Slight phone-lens distortion at edges
+- Sloppy composition — subject off-centre, horizon slightly off, edges clipped
+- Incidental clutter in frame (signs, bins, scaffolding, wires, parked bikes) — NOT curated out
+- Slightly soft focus, not tack-sharp
+- Real-world grime: worn plaster, stained cobbles, faded paint, graffiti corners
+- Imperfect skies with uneven cloud and colour, never gradient-smooth
+
+**Avoid anything that triggers AI or stock-photo aesthetics:**
 - No "perfect" reflections — specify "slightly rippled water, imperfect broken reflection"
-- No oversaturated skies or clouds
-- No hyper-smooth gradients or painterly smoothing
+- No oversaturated skies or clouds, no gradient-smooth sunsets
+- No hyper-smooth surfaces or painterly smoothing
 - No symmetry that wouldn't exist in real life
-- No "postcard perfect" compositions — real travel photos have slight imperfections
-- No AI gloss or synthetic texture
+- No tourism-brochure compositions — real phone photos have slight imperfections
+- No AI gloss, no drone-perfect aerials, no synthetic texture
+- No perfectly empty streets (unless the scene genuinely would be empty)
+
+**Always include the phrase "iPhone snapshot, shot casually on a trip, not a polished photo" in the prompt for the default iPhone aesthetic.**
 
 ## Photography Specs by Scene Type
+
+**Default to iPhone for every scenery shot** unless the article specifically calls for a polished editorial/luxury look. iPhone phone-camera produces the "taken on a trip, not commissioned" feel we want.
+
+### iPhone (default)
+
+| Scene type | Camera | Lens equivalent | Notes |
+|---|---|---|---|
+| Any travel scenery | iPhone main camera | 26mm f/1.8 equivalent | Slight wide distortion, auto-HDR off, default iPhone colour, uncorrected exposure, slight digital noise in shadows, slightly soft focus at edges |
+| Night scene | iPhone | 26mm | Visible noise, halation around lights, handheld micro-blur, no tripod stability |
+| Interior | iPhone | 26mm | Mixed light, slight motion blur from low shutter, no stabilisation rescue |
+
+### Legacy DSLR (use only when the article calls for a polished editorial look)
 
 | Scene type | Camera | Lens | Aperture | ISO | Shutter | Light |
 |---|---|---|---|---|---|---|
@@ -95,16 +122,27 @@ The image must look like a real photograph taken by a human. **If it could be mi
 | Detail / object (no people) | Sony A7R V | 50mm f/1.8 | f/3.5 | ISO 200 | 1/200s | Single window source, 90° side |
 | Compressed telephoto | Sony A7R V | 70-200mm f/2.8 at 135mm | f/4 | ISO 400 | 1/800s | Natural daylight, stacked layers |
 
-## Prompt Template
+## Prompt Template (iPhone-candid — default)
 
 ```
-[SPECIFIC SCENE: e.g. narrow cobblestone laneway in Naples, Italy, laundry strung between ochre buildings].
-No people.
+[SPECIFIC SCENE: e.g. narrow cobblestone laneway in Naples, Italy, laundry strung between ochre buildings, a parked scooter, a coffee-stained napkin on an outdoor table].
+No people in focus (a blurry distant figure walking away is fine — never curated empty).
+Shot on iPhone main camera, 26mm equivalent wide lens, slight edge distortion.
+Uncorrected auto-exposure — highlights slightly blown on sunlit walls/sky, shadows muddy, no HDR rescue.
+Mixed warm-and-cool colour cast, no white balance correction, default iPhone colour science.
+Composition is casual and slightly off — horizon a degree off level, subject off-centre, incidental clutter in frame (wires, signs, scooters, bins — NOT curated out).
+Slightly soft focus, minor handheld shake, subtle digital noise in shadows.
+Real-world worn textures — faded paint, stained cobbles, graffiti corners, scuffed signage.
+Aesthetic: iPhone snapshot taken casually on a trip, sent to a friend, not a polished photo. No AI gloss, no painterly smoothing, no postcard composition.
+```
+
+### Legacy DSLR template (polished editorial — use sparingly)
+
+```
+[SPECIFIC SCENE]. No people.
 Sony A7R V, [LENS from table] lens. Aperture [f-stop], ISO [ISO], [SHUTTER]s.
-[LIGHT: e.g. "Late afternoon golden hour light raking from camera-left at 30 degrees — warm directional shadows stretching right, catching the stone texture. Sky slightly overcast at the edges, no blown highlights."]
-[CAMERA POSITION: e.g. "Camera at street level, lens at 16mm giving slight barrel distortion at the edges. Subject positioned by rule of thirds."]
+[LIGHT]. [CAMERA POSITION].
 Slight natural atmospheric haze, authentic worn textures with micro-detail, real-world imperfections visible.
-No surreal colours, no painterly smoothing, no AI gloss. Slight barrel distortion from wide angle.
 Muted natural colour grading, slight film grain, low saturation, soft vignette.
 RAW photo, photojournalistic travel photography. Looks genuinely captured on location.
 ```

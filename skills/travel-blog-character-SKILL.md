@@ -64,6 +64,37 @@ She is NEVER looking at the camera — always looking away, at the view, at some
 **What CAN change:** outfit, hairstyle styling (up/down/loose), outerwear for climate, additional accessories
 **What MUST stay the same:** dark brown hair, olive complexion, dark brown eyes, oval face with soft features, slim build, delicate chain necklace
 
+## ⚠️ REALISM — CRITICAL (iPhone-candid aesthetic)
+
+**All character shots must look like an imperfect iPhone snapshot a friend took — not a professional portrait.** If it could pass as a polished editorial photo, it has failed the brief.
+
+Reference: `mikawanders.blog/Image/travel_blogger_italy_cafe.png`. Full style spec: `skills/mika-photo/PHOTO_STYLE_REFERENCE.md`.
+
+**Every prompt MUST bake in these imperfections:**
+- **Lighting**: harsh backlit sun with blown highlights on the background; mixed face lighting (partial shade on face while background is lit); uncorrected warm/cool colour cast — NOT even beauty lighting
+- **Pose**: caught mid-action (mid-sip, mid-step, mid-laugh, mid-turn); eyes off-camera; lips slightly parted/pursed, never a smile for the lens; slightly awkward hand position
+- **Skin**: visible pores, faint redness, subtle freckles, no smoothing, no AI glow — matte and natural
+- **Hair**: genuine flyaways around the face, loose updo that's actually loose, not fashion-loose
+- **Clothing**: slightly crumpled, scarf bunched unevenly, nothing "placed"
+- **Framing**: phone-camera composition, subject filling too much of the frame, sloppy crops with props half cut off at edges, slight wide-angle phone-lens distortion
+- **Focus**: slightly soft, not tack-sharp; no DSLR bokeh; phone-lens shallow depth
+- **Props**: lived-in — battered leather journal, used saucer with spoon, dead phone screen, coffee ring stains
+
+**Always include the phrase "iPhone snapshot, shot by a friend across the table, not a portrait session" in the prompt.**
+
+**Do NOT use** Fujifilm X-T5 / Classic Chrome / professional DSLR specs for Mika shots — they produce the glossy editorial look we want to avoid. Use the iPhone spec block below instead.
+
+### iPhone-candid camera spec (use this block in every character prompt)
+
+```
+Shot on iPhone, wide lens, slightly soft focus, phone-lens depth of field with subtle edge distortion.
+Uncorrected auto-exposure — highlights blown on sunlit background, mixed warm-and-cool colour cast, no white balance correction.
+Natural skin with visible pores, texture, faint redness, light freckles — zero retouching, no glow, matte finish.
+Flyaway hairs around the face, crumpled clothing, nothing styled or placed.
+Composition is sloppy: subject fills too much of frame, props half cut off at the bottom edge, background people blurry and incidental.
+Aesthetic: iPhone snapshot sent to a friend in a group chat, not posted to Instagram. Imperfect, candid, real.
+```
+
 ## Workflow
 
 1. **Read the article or section** to identify:
@@ -120,20 +151,27 @@ Different scenes require different camera setups. Always include the full spec b
 | Hotel room | 35mm | f/2.8 | ISO 800 | 1/200s | Soft window backlight | Eye level |
 | Beach / coastal | 50mm | f/2.8 | ISO 200 | 1/800s | Golden hour side light | Low angle, full body |
 
-## Prompt Template
+## Prompt Template (iPhone-candid — default)
+
+```
+[CHARACTER ANCHOR BLOCK]
+Candid iPhone snapshot of her [SCENE DESCRIPTION], caught mid-action, eyes off-camera, lips slightly parted.
+She is wearing [OUTFIT appropriate to climate and destination], slightly crumpled, nothing styled.
+[ENVIRONMENT DETAILS — architecture, light, atmosphere, background activity, incidental blurry people].
+[iPHONE CANDID CAMERA SPEC BLOCK — see realism section above]
+[LIGHT DIRECTION — e.g. "Harsh backlit afternoon sun from camera-left, blowing out the building wall behind her; her face in partial shade with mixed warm/cool light."]
+Composition: subject fills frame, [prop e.g. phone, saucer, bag] half cut off at the bottom edge, slight phone-lens distortion at edges.
+Visible skin texture, pores, faint redness, light freckles, flyaway hairs. No retouch, no glow.
+Aesthetic: iPhone snapshot shot by a friend across the table, sent to a group chat, not posted to Instagram.
+```
+
+### Legacy DSLR template (use only when the article explicitly calls for a polished editorial look)
 
 ```
 [CHARACTER ANCHOR BLOCK]
 Candid travel lifestyle photo of her [SCENE DESCRIPTION].
-She is wearing [OUTFIT appropriate to climate and destination].
-[ENVIRONMENT DETAILS — architecture, light, atmosphere, background activity].
-Shot on a Fujifilm X-T5 with a [FOCAL LENGTH from table above] lens.
-[APERTURE from table], ISO [ISO from table], [SHUTTER] — [describe resulting motion/sharpness e.g. "subject sharp, background motion-blurred pedestrians"].
-[LIGHT DIRECTION from table — e.g. "Natural light raking from camera-left at 45 degrees, catching her hair and left cheekbone. No fill, slight shadow on right side."]
-Camera held at [HEIGHT from table], [ANGLE — slightly low / eye level], subject positioned [left / right / center] of frame.
-Shallow depth of field — subject in sharp focus, background falls to soft bokeh.
-Fujifilm film simulation: Classic Chrome. Slight grain, muted earth tones, low contrast, no HDR.
-RAW photo aesthetic, authentic travel editorial, looks genuinely captured on location.
+Shot on a Fujifilm X-T5 with a [FOCAL LENGTH] lens. [APERTURE], ISO [ISO], [SHUTTER].
+Fujifilm Classic Chrome simulation, slight grain, muted earth tones, low contrast, no HDR.
 ```
 
 ## Scene Type Reference

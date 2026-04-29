@@ -2,7 +2,7 @@
 title: "Best eSIM for Africa and the Middle East: What I've Learned Across 7 Countries"
 description: "From Dubai's lightning-fast 5G to Kenya's safari coverage, I've tested eSIM providers across 7 countries in Africa and the Middle East. Here's what actually works."
 pubDate: 2026-03-29
-heroImage: "/images/esim-guide-africa-middle-east.jpg"
+heroImage: "/images/esim-guide-africa-middle-east.webp"
 author: "Mika Soren"
 type: "pillar"
 ---

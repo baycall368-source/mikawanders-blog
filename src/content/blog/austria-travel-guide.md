@@ -1,7 +1,6 @@
 ---
 title: "Vienna is not what I expected and that's the whole compliment: coffehouses, Klimt, and a train to Salzburg"
 description: "Vienna for ten days in November, Salzburg for a long weekend, and the specific quality of Austrian cafés that I've been trying to replicate ever since. Austria is its own thing."
-pubDate: 2026-03-27
 heroImage: "/images/austria-travel-guide.webp"
 heroImageAlt: "Austria travel guide"
 author: "Mika Soren"

@@ -1,7 +1,6 @@
 ---
 title: "Argentina is a country that takes itself very seriously, which is why you should too: Buenos Aires and Patagonia"
 description: "Two weeks in Buenos Aires (the most European city in South America, and I mean that as both description and mild criticism), a week in Patagonia that was every bit as extraordinary as advertised, and the steak question answered."
-pubDate: 2026-03-27
 heroImage: "/images/argentina-travel-guide.webp"
 heroImageAlt: "Argentina travel guide"
 author: "Mika Soren"

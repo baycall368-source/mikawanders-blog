@@ -1,7 +1,6 @@
 ---
 title: "Germany is not what I expected: Berlin, Munich, and the parts the travel guides underwrite"
 description: "Berlin for a month, Munich for Oktoberfest (then again without Oktoberfest), a solo drive through the Rhineland wine country. Germany kept surprising me in the best directions."
-pubDate: 2026-03-27
 heroImage: "/images/germany-travel-guide.webp"
 heroImageAlt: "Germany travel guide"
 author: "Mika Soren"

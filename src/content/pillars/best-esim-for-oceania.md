@@ -2,7 +2,7 @@
 title: "Best eSIM for Oceania: Australia and New Zealand Tested (Yes, Even the Outback)"
 description: "I've tested eSIM providers across Australia and New Zealand. Here's what works in Sydney and Auckland, what to expect in the outback, and which providers deliver the best coverage down under."
 pubDate: 2026-03-29
-heroImage: "/images/esim-guide-oceania.jpg"
+heroImage: "/images/esim-guide-oceania.webp"
 author: "Mika Soren"
 type: "pillar"
 ---
