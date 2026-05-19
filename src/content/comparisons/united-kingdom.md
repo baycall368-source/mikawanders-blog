@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for the United Kingdom: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across London, Edinburgh, and the Scottish Highlands. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for the UK in 2026: tested from London to the Highlands"
+description: "Five eSIMs across London, Edinburgh and the Scottish Highlands. Real 2026 pricing, who held LTE on the train, and the one I'd actually buy again."
 pubDate: 2026-03-27
 country: "United Kingdom"
 region: "europe"

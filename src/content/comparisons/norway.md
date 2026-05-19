@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Norway: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Oslo, the fjords, and above the Arctic Circle. Here's my honest 2026 ranking with real pricing and who each provider works for."
+title: "Best eSIM for Norway (2026): tested above the Arctic Circle"
+description: "Five eSIMs across Oslo, the fjords and above the Arctic Circle. The one that held signal at 70°N, the four that gave up, and honest 2026 pricing."
 pubDate: 2026-03-27
 country: "Norway"
 region: "europe"

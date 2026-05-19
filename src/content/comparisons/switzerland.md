@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Switzerland: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Zurich, Geneva, Bern, and the Alps. Here's my honest 2026 ranking with real pricing and a clear recommendation."
+title: "Best eSIM for Switzerland (2026): tested in Zurich and the Alps"
+description: "Five eSIMs across Zurich, Geneva and the Swiss Alps. Real 2026 pricing, who held 5G on the train, and which provider isn't actually a rip-off."
 pubDate: 2026-03-27
 country: "Switzerland"
 region: "europe"

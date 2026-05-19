@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Sweden: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Stockholm, Gothenburg, and Swedish Lapland. Here's my honest 2026 ranking with real pricing and who each provider works for."
+title: "Best eSIM for Sweden in 2026: tested from Stockholm to the Arctic"
+description: "Five eSIMs across Stockholm, Gothenburg and the Arctic Circle. Real 2026 pricing, who held signal up north, and the one I'd buy again next trip."
 pubDate: 2026-03-27
 country: "Sweden"
 region: "europe"

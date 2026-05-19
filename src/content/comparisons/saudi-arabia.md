@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Saudi Arabia: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Riyadh, Jeddah, and AlUla. Here's my honest ranking with real 2026 pricing, STC and Mobily coverage, and what to know about Saudi Arabia without mobile data."
+title: "Best eSIM for Saudi Arabia in 2026: tested in Riyadh and AlUla"
+description: "Five eSIMs across Riyadh, Jeddah and AlUla. Real 2026 pricing, coverage notes, and which providers actually work with Saudi mobile networks before you land."
 pubDate: 2026-03-27
 country: "Saudi Arabia"
 region: "middle-east-africa"

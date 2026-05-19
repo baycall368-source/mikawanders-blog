@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Kenya: 5 Providers Tested on Safari and in the City (2026)"
-description: "I've tested eSIMs across Nairobi, the Maasai Mara, and Mombasa coast. Here's my honest 2026 ranking with real pricing and who each provider actually works for."
+title: "Best eSIM for Kenya (2026): tested on safari and in Nairobi"
+description: "Five eSIMs across Nairobi, the Maasai Mara and Mombasa. Which ones survived a week of game drives, real 2026 pricing, and what to know before you land."
 pubDate: 2026-03-28
 country: "Kenya"
 region: "middle-east-africa"

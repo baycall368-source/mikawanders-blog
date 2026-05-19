@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Japan: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Tokyo, Kyoto, and Osaka. Here's my honest ranking with real 2026 pricing, data speeds, and which esim provider works best for your trip to Japan."
+title: "Best eSIM for Japan in 2026: the one I'd actually buy again"
+description: "Five eSIMs across Tokyo, Kyoto and Osaka. One was 40% cheaper and faster everywhere I checked. Plus four backups for specific situations and real 2026 pricing."
 pubDate: 2026-03-27
 country: "Japan"
 region: "asia"

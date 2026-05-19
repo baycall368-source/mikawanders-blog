@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Greece: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Athens, Santorini, and the Greek islands. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for Greece in 2026: what actually worked on Santorini"
+description: "Five eSIMs across Athens, Santorini and the islands. One held signal on the ferry, four didn't. Honest 2026 pricing and the small print no one mentions."
 pubDate: 2026-03-27
 country: "Greece"
 region: "europe"

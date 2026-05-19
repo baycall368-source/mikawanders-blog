@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Australia: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Melbourne, Sydney, the Red Centre, and everywhere in between. Here's my honest 2026 ranking for Australia with real pricing and a clear recommendation."
+title: "Best eSIM for Australia (2026): what survived the Red Centre"
+description: "Five eSIMs across Sydney, Melbourne and the Red Centre. One stayed alive in the outback. Honest 2026 pricing and the gotchas no one warns you about."
 pubDate: 2026-03-27
 country: "Australia"
 region: "oceania"

@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Malaysia: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs in Kuala Lumpur, Penang, and along the Borneo coast. Here's my honest ranking with real 2026 pricing, LTE and 5G coverage, and who each popular esim provider actually works for."
+title: "Best eSIM for Malaysia in 2026: tested in KL, Penang and Borneo"
+description: "Five eSIMs across Kuala Lumpur, Penang and the Borneo coast. Real 2026 pricing, LTE and 5G coverage, and the cheap one that quietly beat the famous brands."
 pubDate: 2026-03-27
 country: "Malaysia"
 region: "asia"

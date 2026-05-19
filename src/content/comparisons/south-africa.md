@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for South Africa: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Cape Town, the Garden Route, and Kruger. Here's my honest 2026 ranking for South Africa with real pricing and who each provider works for."
+title: "Best eSIM for South Africa (2026): tested from Cape Town to Kruger"
+description: "Five eSIMs across Cape Town, the Garden Route and Kruger. Honest 2026 pricing, who held LTE in the bush, and the small print no one else mentions."
 pubDate: 2026-03-27
 country: "South Africa"
 region: "middle-east-africa"

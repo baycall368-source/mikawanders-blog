@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Canada: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Vancouver, Toronto, Montreal, and deep into the Rockies. Here's my honest 2026 ranking with real pricing and who each esim card provider actually works for."
+title: "Best eSIM for Canada (2026): what actually works in the Rockies"
+description: "Five eSIMs across Vancouver, Toronto, Montreal and deep into the Rockies. One stayed connected on the trail. Honest 2026 ranking with real pricing."
 pubDate: 2026-03-27
 country: "Canada"
 region: "americas"

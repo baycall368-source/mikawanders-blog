@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Thailand: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Bangkok, Chiang Mai, and the southern islands. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for Thailand (2026): what actually works on the islands"
+description: "Five eSIMs across Bangkok, Chiang Mai and the southern islands. The one that held signal on Koh Tao, the four that didn't, and real 2026 pricing."
 pubDate: 2026-03-27
 country: "Thailand"
 region: "asia"

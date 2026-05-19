@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Austria: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Vienna, Salzburg, and the Austrian Alps. Here's my honest ranking with real 2026 pricing, coverage on A1 Telekom Austria, and who each prepaid esim provider actually works for."
+title: "Best eSIM for Austria in 2026: tested in Vienna and the Alps"
+description: "Five eSIMs across Vienna, Salzburg and the Austrian Alps. Real 2026 pricing on A1 Telekom Austria, who got 5G where, and the one I'd actually buy again."
 pubDate: 2026-03-27
 country: "Austria"
 region: "europe"

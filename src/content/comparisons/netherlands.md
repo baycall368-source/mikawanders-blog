@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for the Netherlands: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Amsterdam, Rotterdam, and the Dutch countryside. Here's my honest ranking with real 2026 pricing, 4G and 5G coverage, and which prepaid esim for the Netherlands actually works."
+title: "Best eSIM for the Netherlands (2026): 5 tested across Amsterdam"
+description: "Five eSIMs across Amsterdam, Rotterdam and the Dutch countryside. Real 2026 pricing, 4G and 5G coverage notes, and the prepaid option that actually works."
 pubDate: 2026-03-27
 country: "Netherlands"
 region: "europe"

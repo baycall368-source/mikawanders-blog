@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Tanzania: 5 Providers Tested on Safari and Beyond (2026)"
-description: "I've used eSIMs across the Serengeti, Zanzibar, and Dar es Salaam. Here's my honest ranking with real 2026 pricing and what actually works in the bush."
+title: "Best eSIM for Tanzania in 2026: tested on safari and on Zanzibar"
+description: "Five eSIMs across Arusha, the Serengeti and Zanzibar. Honest 2026 pricing, which ones held signal in the bush, and the gotchas no one warns you about."
 pubDate: 2026-03-28
 country: "Tanzania"
 region: "middle-east-africa"

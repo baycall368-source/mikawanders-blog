@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Indonesia: Tested Across Bali, Java & the Islands (2026)"
-description: "I've used eSIMs across Bali, Yogyakarta, and the Gili Islands. Here's my honest ranking of the best eSIM providers for Indonesia with real 2026 pricing."
+title: "Best eSIM for Indonesia (2026): tested across Bali and the Gilis"
+description: "Five eSIMs across Bali, Yogyakarta and the Gili Islands. Real 2026 pricing, who held signal on Nusa Penida, and the one I'd buy again next trip."
 pubDate: 2026-03-28
 country: "Indonesia"
 region: "asia"

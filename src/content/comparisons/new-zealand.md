@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for New Zealand: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Auckland, Queenstown, and both islands. Here's my honest 2026 ranking for New Zealand with real pricing and what to know about connectivity on the road."
+title: "Best eSIM for New Zealand in 2026: tested across both islands"
+description: "Five eSIMs across Auckland, Queenstown and both islands. Real 2026 pricing, who held signal on the drive to Milford Sound, and the one I'd buy again."
 pubDate: 2026-03-27
 country: "New Zealand"
 region: "oceania"

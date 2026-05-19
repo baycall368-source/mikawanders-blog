@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Brazil: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across São Paulo, Rio, and the Amazon region. Here's my honest 2026 ranking with real pricing and who each provider actually works for."
+title: "Best eSIM for Brazil in 2026: tested from Rio to the Amazon"
+description: "Five eSIMs across São Paulo, Rio and the Amazon. The one that held signal in the rainforest, the four that didn't. Real 2026 pricing, no fluff."
 pubDate: 2026-03-27
 country: "Brazil"
 region: "americas"

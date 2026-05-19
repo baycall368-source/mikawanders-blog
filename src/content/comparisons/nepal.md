@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Nepal: 5 Providers Tested in the Himalayas (2026)"
-description: "I've tested eSIMs across Kathmandu, Pokhara, and the Annapurna trek. Here's my honest ranking with real 2026 pricing, plus what you need to know about Nepal's spotty mountain coverage."
+title: "Best eSIM for Nepal in 2026: what holds signal above 4,000m"
+description: "Five eSIMs across Kathmandu, Pokhara and the Annapurna trek. Honest 2026 pricing, mountain coverage notes, and the one that actually rang at altitude."
 pubDate: 2026-03-28
 country: "Nepal"
 region: "asia"

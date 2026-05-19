@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Peru: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs from Lima to Cusco to the Sacred Valley. Here's my honest 2026 ranking with real pricing and coverage notes for altitude and jungle travel."
+title: "Best eSIM for Peru in 2026: tested at altitude and in the jungle"
+description: "Five eSIMs from Lima to Cusco to the Sacred Valley. Real 2026 pricing, coverage notes for high altitude and Amazon jungle, and the one I'd buy again."
 pubDate: 2026-03-27
 country: "Peru"
 region: "americas"

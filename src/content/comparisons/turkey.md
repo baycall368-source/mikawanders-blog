@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Turkey: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've used eSIMs across Istanbul, Cappadocia, and the Aegean coast. Here's my honest ranking with real 2026 pricing and who each provider actually works for in Turkey."
+title: "Best eSIM for Turkey in 2026: tested from Istanbul to Cappadocia"
+description: "Five eSIMs across Istanbul, Cappadocia and the Aegean coast. The one that worked in the balloon basket, four that didn't, and honest 2026 pricing."
 pubDate: 2026-03-27
 country: "Turkey"
 region: "middle-east-africa"

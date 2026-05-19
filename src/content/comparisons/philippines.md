@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for the Philippines: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Manila, Palawan, and the Visayas islands. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for the Philippines (2026): tested across the islands"
+description: "Five eSIMs across Manila, Palawan and the Visayas. The one that worked on the ferry between islands, the four that didn't, and honest 2026 pricing."
 pubDate: 2026-03-27
 country: "Philippines"
 region: "asia"

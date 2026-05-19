@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Italy: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Rome, Florence, and the Amalfi Coast. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for Italy in 2026: tested from Rome to the Amalfi"
+description: "Five eSIMs across Rome, Florence and the Amalfi Coast. The one that worked everywhere, the four that didn't, and honest 2026 pricing with no affiliate fluff."
 pubDate: 2026-03-27
 country: "Italy"
 region: "europe"

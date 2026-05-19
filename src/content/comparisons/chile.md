@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Chile: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs from Santiago to the Atacama to Torres del Paine. Here's my honest 2026 ranking with real pricing and coverage notes for Chile's extreme geography."
+title: "Best eSIM for Chile in 2026: tested from the Atacama to Patagonia"
+description: "Five eSIMs across Santiago, the Atacama desert and Torres del Paine. Coverage notes for Chile's ridiculous geography and the one I'd buy again."
 pubDate: 2026-03-27
 country: "Chile"
 region: "americas"

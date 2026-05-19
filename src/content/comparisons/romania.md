@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Romania: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Bucharest, Transylvania, and the Black Sea coast. Here's my honest 2026 ranking with real pricing and a clear recommendation."
+title: "Best eSIM for Romania in 2026: tested across Transylvania"
+description: "Five eSIMs across Bucharest, Transylvania and the Carpathians. Real 2026 pricing, who held LTE in the mountains, and the cheap pick that quietly won."
 pubDate: 2026-03-27
 country: "Romania"
 region: "europe"

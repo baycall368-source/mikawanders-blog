@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Belgium: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Brussels, Bruges, and Ghent. Here's my honest 2026 ranking with real pricing and who each provider actually works for."
+title: "Best eSIM for Belgium (2026): the honest 5-provider rundown"
+description: "Five eSIMs tested across Brussels, Bruges and Ghent in early 2026. Real pricing, real coverage, and which one I'd hand my phone over to next trip."
 pubDate: 2026-03-27
 country: "Belgium"
 region: "europe"

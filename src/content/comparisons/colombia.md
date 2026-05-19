@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Colombia: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Bogotá, Medellín, and the Caribbean coast. Here's my honest 2026 ranking with real pricing and who each provider actually works for."
+title: "Best eSIM for Colombia (2026): 5 tested across Bogotá and Medellín"
+description: "Five eSIMs across Bogotá, Medellín and the Caribbean coast. Real 2026 pricing, who held LTE in the mountains, and the one I'd trust with two-factor codes."
 pubDate: 2026-03-27
 country: "Colombia"
 region: "americas"

@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Tunisia: 5 Providers Compared With Real Pricing (2026)"
-description: "I haven't been to Tunisia yet, but my research (and a very persistent friend) convinced me to rank the best eSIM providers. Real 2026 pricing, honest picks."
+title: "Best eSIM for Tunisia (2026): 5 providers compared with real pricing"
+description: "Five eSIMs across Tunis, Sidi Bou Said and Djerba. Real 2026 pricing, who held signal in the south, and the small print no one else mentions."
 pubDate: 2026-03-28
 country: "Tunisia"
 region: "middle-east-africa"

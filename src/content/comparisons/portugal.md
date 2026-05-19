@@ -1,6 +1,6 @@
 ---
-title: "Best eSIM for Portugal: 5 Providers Tested, One Clear Winner (2026)"
-description: "I've tested eSIMs across Lisbon, Porto, the Algarve, Madeira, and the Azores. Here's my honest ranking with real 2026 pricing and who each provider actually works for."
+title: "Best eSIM for Portugal (2026): 5 tested from Lisbon to the Algarve"
+description: "Five eSIMs across Lisbon, Porto and the Algarve. The one I'd buy again, the ones I wouldn't, and honest 2026 pricing with no affiliate-y nonsense."
 pubDate: 2026-03-27
 country: "Portugal"
 region: "europe"
