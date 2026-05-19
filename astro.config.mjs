@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mikawanders.blog',
+  site: 'https://mikawonders.com',
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/404') && !page.includes('/privacy'),

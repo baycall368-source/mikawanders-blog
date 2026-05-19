@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mikawanders.blog/sitemap-index.xml
+Sitemap: https://mikawonders.com/sitemap-index.xml
